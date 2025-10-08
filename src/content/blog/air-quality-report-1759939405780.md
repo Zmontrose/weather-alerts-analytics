@@ -1,14 +1,14 @@
 ---
-title: "Air Quality Report: Major US Cities - 10/8/2025"
+title: "Air Quality Report: Major US Cities - 10/8/2024"
 slug: "air-quality-report-1759939405780"
-publishDate: "2025-10-08T16:03:25.780Z"
+publishDate: "2024-10-08T16:03:25.780Z"
 tags: ["air quality", "health", "pollution", "environmental safety"]
 description: "Auto-generated content with latest safety information"
 ---
 
 # Air Quality Report: Major US Cities
 
-*Report generated: 10/8/2025, 11:03:25 AM*
+*Report generated: 10/8/2024, 11:03:25 AM*
 
 ## Current Air Quality Index (AQI) Readings
 

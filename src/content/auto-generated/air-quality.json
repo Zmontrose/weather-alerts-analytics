@@ -3,7 +3,7 @@
     "city": "Los Angeles",
     "lat": 34.0522,
     "lon": -118.2437,
-    "lastUpdated": "2025-10-08T16:03:24.990Z",
+    "lastUpdated": "2024-10-08T16:03:24.990Z",
     "aqi": 156,
     "category": {
       "level": "Moderate",
@@ -18,7 +18,7 @@
     "city": "New York",
     "lat": 40.7128,
     "lon": -74.006,
-    "lastUpdated": "2025-10-08T16:03:24.991Z",
+    "lastUpdated": "2024-10-08T16:03:24.991Z",
     "aqi": 193,
     "category": {
       "level": "Unhealthy for Sensitive Groups",
@@ -33,7 +33,7 @@
     "city": "Chicago",
     "lat": 41.8781,
     "lon": -87.6298,
-    "lastUpdated": "2025-10-08T16:03:24.991Z",
+    "lastUpdated": "2024-10-08T16:03:24.991Z",
     "aqi": 115,
     "category": {
       "level": "Unhealthy for Sensitive Groups",
@@ -48,7 +48,7 @@
     "city": "Houston",
     "lat": 29.7604,
     "lon": -95.3698,
-    "lastUpdated": "2025-10-08T16:03:24.991Z",
+    "lastUpdated": "2024-10-08T16:03:24.991Z",
     "aqi": 199,
     "category": {
       "level": "Moderate",
@@ -63,7 +63,7 @@
     "city": "Phoenix",
     "lat": 33.4484,
     "lon": -112.074,
-    "lastUpdated": "2025-10-08T16:03:24.991Z",
+    "lastUpdated": "2024-10-08T16:03:24.991Z",
     "aqi": 13,
     "category": {
       "level": "Good",

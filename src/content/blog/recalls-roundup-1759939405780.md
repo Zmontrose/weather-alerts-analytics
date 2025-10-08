@@ -1,14 +1,14 @@
 ---
 title: "Weekly Product Recall Roundup: What You Need to Know"
 slug: "recalls-roundup-1759939405780"
-publishDate: "2025-10-08T16:03:25.780Z"
+publishDate: "2024-10-08T16:03:25.780Z"
 tags: ["product recalls", "consumer safety", "food safety", "product safety"]
 description: "Auto-generated content with latest safety information"
 ---
 
 # Weekly Product Recall Roundup
 
-*Updated: 10/8/2025*
+*Updated: 10/8/2024*
 
 Stay informed about the latest product recalls that could affect your safety.
 
