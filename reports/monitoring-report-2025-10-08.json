@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2025-10-08T16:22:49.051Z",
+  "summary": {
+    "status": "healthy",
+    "alertCount": 0,
+    "keyMetrics": {
+      "monthlyVisitors": 969,
+      "monthlyRevenue": "$263.74",
+      "avgPageSpeed": 86,
+      "socialFollowers": 1029
+    }
+  },
+  "alerts": [],
+  "reports": {
+    "traffic": {
+      "timestamp": "2025-10-08T16:22:49.051Z",
+      "metrics": {
+        "pageviews": 10975,
+        "uniqueVisitors": 969,
+        "bounceRate": "20.70",
+        "avgSessionDuration": "144",
+        "topPages": [
+          "/alerts/winter-storm-warning",
+          "/air-quality",
+          "/recalls/food-safety-alerts",
+          "/state/ca",
+          "/hazard/heat-advisory"
+        ],
+        "topReferrers": [
+          "google.com",
+          "bing.com",
+          "facebook.com",
+          "twitter.com",
+          "direct"
+        ]
+      },
+      "goals": {
+        "monthlyVisitors": 10000,
+        "currentProgress": "9.7"
+      }
+    },
+    "seo": {
+      "timestamp": "2025-10-08T16:22:49.051Z",
+      "keywords": [
+        {
+          "keyword": "weather alerts",
+          "position": 18,
+          "volume": 12000
+        },
+        {
+          "keyword": "air quality index",
+          "position": 25,
+          "volume": 8500
+        },
+        {
+          "keyword": "product recalls",
+          "position": 25,
+          "volume": 6200
+        },
+        {
+          "keyword": "emergency preparedness",
+          "position": 14,
+          "volume": 4100
+        },
+        {
+          "keyword": "food safety alerts",
+          "position": 26,
+          "volume": 3800
+        }
+      ],
+      "indexedPages": 510,
+      "backlinks": 29,
+      "domainAuthority": 15
+    },
+    "revenue": {
+      "timestamp": "2025-10-08T16:22:49.051Z",
+      "sources": {
+        "adsense": {
+          "impressions": 44504,
+          "clicks": 345,
+          "ctr": "0.69",
+          "revenue": "51.76"
+        },
+        "affiliate": {
+          "clicks": 268,
+          "conversions": 24,
+          "revenue": "134.76"
+        },
+        "email": {
+          "subscribers": 2438,
+          "openRate": "23.5",
+          "revenue": "77.22"
+        }
+      },
+      "total": "263.74",
+      "monthlyGoal": 1500,
+      "progress": "17.6"
+    },
+    "technical": {
+      "timestamp": "2025-10-08T16:22:49.051Z",
+      "performance": {
+        "pageSpeed": {
+          "desktop": 82,
+          "mobile": 89
+        },
+        "uptime": "98.37",
+        "coreWebVitals": {
+          "lcp": "1.9",
+          "fid": 78,
+          "cls": "0.062"
+        }
+      },
+      "sslStatus": "Valid",
+      "securityScore": "A+",
+      "sitemapStatus": "Submitted to Google & Bing"
+    },
+    "social": {
+      "timestamp": "2025-10-08T16:22:49.051Z",
+      "platforms": {
+        "twitter": {
+          "followers": 127,
+          "engagement": "3.69"
+        },
+        "facebook": {
+          "likes": 441,
+          "reach": 4414
+        },
+        "youtube": {
+          "subscribers": 461,
+          "views": 6129
+        }
+      },
+      "totalFollowers": 1029
+    }
+  },
+  "recommendations": [
+    {
+      "category": "seo",
+      "priority": "medium",
+      "action": "Focus on long-tail keywords and improve content quality for better rankings"
+    },
+    {
+      "category": "monetization",
+      "priority": "high",
+      "action": "Implement more affiliate links and optimize ad placements for higher revenue"
+    }
+  ]
+}

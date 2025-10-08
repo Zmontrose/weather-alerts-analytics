@@ -1,0 +1,56 @@
+[
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    }
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    }
+  }
+]

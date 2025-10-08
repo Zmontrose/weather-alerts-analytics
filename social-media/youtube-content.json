@@ -1,0 +1,32 @@
+[
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    }
+  }
+]

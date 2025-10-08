@@ -1,0 +1,137 @@
+[
+  {
+    "id": "twitter_1",
+    "platform": "twitter",
+    "content": "🌪️ Winter Storm alert for Northeast US! Stay safe and follow official guidance. https://your-domain.com #WeatherAlert #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    }
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    }
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    }
+  },
+  {
+    "id": "twitter_4",
+    "platform": "twitter",
+    "content": "🚨 Breaking: Winter Weather Advisory issued for Mid-Atlantic. Get the latest updates: https://your-domain.com #WeatherAlert",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    }
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    }
+  }
+]

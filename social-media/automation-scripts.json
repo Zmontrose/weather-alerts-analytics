@@ -1,0 +1,32 @@
+{
+  "daily": {
+    "name": "Daily Weather Updates",
+    "schedule": "0 8 * * *",
+    "tasks": [
+      "Check latest weather alerts",
+      "Generate Twitter updates",
+      "Post Facebook community update",
+      "Update Instagram story"
+    ]
+  },
+  "weekly": {
+    "name": "Weekly Content Batch",
+    "schedule": "0 10 * * 1",
+    "tasks": [
+      "Generate content for the week",
+      "Schedule social media posts",
+      "Create YouTube video outline",
+      "Design Pinterest infographics"
+    ]
+  },
+  "emergency": {
+    "name": "Emergency Weather Response",
+    "trigger": "severe_weather_alert",
+    "tasks": [
+      "Send immediate Twitter alert",
+      "Post Facebook emergency update",
+      "Update all platform bios",
+      "Create Instagram story highlight"
+    ]
+  }
+}

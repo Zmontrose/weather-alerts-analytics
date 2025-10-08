@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "twitter_4",
+    "platform": "twitter",
+    "content": "🚨 Breaking: Winter Weather Advisory issued for Mid-Atlantic. Get the latest updates: https://your-domain.com #WeatherAlert",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-08"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-08"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-08"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-08"
+  },
+  {
+    "id": "twitter_4",
+    "platform": "twitter",
+    "content": "🚨 Breaking: Winter Weather Advisory issued for Mid-Atlantic. Get the latest updates: https://your-domain.com #WeatherAlert",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-09"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-09"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-09"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-09"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-10"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-10"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-10"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-10"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-11"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-11"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-11"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-11"
+  },
+  {
+    "id": "twitter_1",
+    "platform": "twitter",
+    "content": "🌪️ Winter Storm alert for Northeast US! Stay safe and follow official guidance. https://your-domain.com #WeatherAlert #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-12"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-12"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-12"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-12"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-13"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-13"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-13"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-13"
+  },
+  {
+    "id": "twitter_4",
+    "platform": "twitter",
+    "content": "🚨 Breaking: Winter Weather Advisory issued for Mid-Atlantic. Get the latest updates: https://your-domain.com #WeatherAlert",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-14"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-14"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-14"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-14"
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-15"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-15"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-15"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-15"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-16"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-16"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-16"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-16"
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-17"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-17"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-17"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-17"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-18"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-18"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-18"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-18"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-19"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-19"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-19"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-19"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-20"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-20"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-20"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-20"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-21"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-21"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-21"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-21"
+  },
+  {
+    "id": "twitter_1",
+    "platform": "twitter",
+    "content": "🌪️ Winter Storm alert for Northeast US! Stay safe and follow official guidance. https://your-domain.com #WeatherAlert #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-22"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-22"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-22"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-22"
+  },
+  {
+    "id": "twitter_4",
+    "platform": "twitter",
+    "content": "🚨 Breaking: Winter Weather Advisory issued for Mid-Atlantic. Get the latest updates: https://your-domain.com #WeatherAlert",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-23"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-23"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-23"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-23"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-24"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-24"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-24"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-24"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-25"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-25"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-25"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-25"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-26"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-26"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-26"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-26"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-27"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-27"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-27"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-27"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-28"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-28"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-28"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-28"
+  },
+  {
+    "id": "twitter_1",
+    "platform": "twitter",
+    "content": "🌪️ Winter Storm alert for Northeast US! Stay safe and follow official guidance. https://your-domain.com #WeatherAlert #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-29"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-29"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-29"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-29"
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-30"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-30"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-30"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-30"
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-10-31"
+  },
+  {
+    "id": "facebook_2",
+    "platform": "facebook",
+    "content": "Did you know that Lightning can strike the same place twice? Understanding weather patterns can help keep you and your family safe.\n\n🌡️ Dress in layers for changing temperatures\n☔ Avoid flooded roads and walkways\n💨 Secure outdoor furniture and decorations\n\nLearn more weather safety tips at https://your-domain.com\n\n#WeatherEducation #SafetyTips #StayInformed",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-10-31"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-10-31"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-10-31"
+  },
+  {
+    "id": "twitter_1",
+    "platform": "twitter",
+    "content": "🌪️ Winter Storm alert for Northeast US! Stay safe and follow official guidance. https://your-domain.com #WeatherAlert #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-11-01"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-11-01"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-11-01"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-11-01"
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-11-02"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-11-02"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-11-02"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-11-02"
+  },
+  {
+    "id": "twitter_1",
+    "platform": "twitter",
+    "content": "🌪️ Winter Storm alert for Northeast US! Stay safe and follow official guidance. https://your-domain.com #WeatherAlert #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-11-03"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-11-03"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-11-03"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-11-03"
+  },
+  {
+    "id": "twitter_5",
+    "platform": "twitter",
+    "content": "☔ Check your heating system this fall. Stay prepared! More tips: https://your-domain.com #WeatherSafety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-11-04"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-11-04"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-11-04"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-11-04"
+  },
+  {
+    "id": "twitter_3",
+    "platform": "twitter",
+    "content": "🌡️ Temperatures dropping to 15°F expected in Northeast US. Prepare now: Keep emergency supplies ready https://your-domain.com #WeatherPrep",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-11-05"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-11-05"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-11-05"
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-11-05"
+  },
+  {
+    "id": "twitter_2",
+    "platform": "twitter",
+    "content": "⚡ {fact} Did you know? Lightning can strike the same place twice Stay informed at https://your-domain.com #WeatherFacts #Safety",
+    "hashtags": [
+      "#WeatherAlert",
+      "#SafetyFirst",
+      "#WeatherPrep",
+      "#StaySafe"
+    ],
+    "scheduledTime": "2025-10-09T14:00:00.000Z",
+    "engagement": {
+      "type": "real-time",
+      "tactics": [
+        "Ask questions",
+        "Use polls",
+        "Respond quickly",
+        "Retweet relevant content"
+      ],
+      "metrics": [
+        "replies",
+        "retweets",
+        "likes",
+        "click-through-rate"
+      ]
+    },
+    "scheduledDate": "2025-11-06"
+  },
+  {
+    "id": "facebook_1",
+    "platform": "facebook",
+    "content": "🌪️ WEATHER ALERT: A Winter Storm is affecting Northeast US right now. Here's what you need to know:\n\n✅ Stay indoors during severe weather\n✅ Keep emergency supplies accessible\n✅ Monitor official weather alerts\n\nStay safe and get real-time updates at https://your-domain.com\n\n#WeatherAlert #SafetyFirst #EmergencyPrep",
+    "hashtags": [
+      "#WeatherSafety",
+      "#EmergencyPrep",
+      "#WeatherAlert",
+      "#StayInformed"
+    ],
+    "scheduledTime": "2025-10-08T20:00:00.000Z",
+    "engagement": {
+      "type": "community-building",
+      "tactics": [
+        "Start discussions",
+        "Share user stories",
+        "Post polls",
+        "Go live during events"
+      ],
+      "metrics": [
+        "comments",
+        "shares",
+        "reactions",
+        "video-views"
+      ]
+    },
+    "scheduledDate": "2025-11-06"
+  },
+  {
+    "id": "youtube_1",
+    "platform": "youtube",
+    "title": "URGENT: Winter Storm Safety Guide - What You MUST Know",
+    "description": "A comprehensive guide to staying safe during Winter Storm. This video covers essential preparation steps, safety protocols, and recovery tips that could save your life.\n\n🎯 What you'll learn:\n• Emergency preparation checklist\n• During-event safety protocols\n• Post-event recovery steps\n• Essential supplies and equipment\n\n⚠️ TIMESTAMPS:\n0:00 - Introduction\n1:30 - Preparation phase\n4:15 - During the event\n7:45 - After the event\n10:20 - Essential supplies\n\n📱 Get real-time alerts: https://your-domain.com\n\n#WeatherSafety #EmergencyPrep #WinterStorm",
+    "tags": [
+      "weather",
+      "safety",
+      "emergency",
+      "preparedness",
+      "survival"
+    ],
+    "scheduledTime": "2025-10-08T19:00:00.000Z",
+    "thumbnail": "weather-safety-thumbnail.jpg",
+    "engagement": {
+      "type": "educational",
+      "tactics": [
+        "Ask for subscriptions",
+        "Pin comments",
+        "Create playlists",
+        "Community posts"
+      ],
+      "metrics": [
+        "views",
+        "watch-time",
+        "subscribers",
+        "comments"
+      ]
+    },
+    "scheduledDate": "2025-11-06"
+  },
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    },
+    "scheduledDate": "2025-11-06"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "name": "Weather Alerts Analytics",
+  "short_name": "Weather Alerts",
+  "description": "Real-time weather alerts, air quality updates, and emergency preparedness information",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["weather", "safety", "news"],
+  "lang": "en-US",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Current Alerts",
+      "short_name": "Alerts",
+      "description": "View current weather alerts",
+      "url": "/alerts",
+      "icons": [
+        {
+          "src": "/icons/alert-shortcut.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Air Quality",
+      "short_name": "Air Quality",
+      "description": "Check air quality index",
+      "url": "/air-quality",
+      "icons": [
+        {
+          "src": "/icons/air-quality-shortcut.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Product Recalls",
+      "short_name": "Recalls",
+      "description": "Latest product recalls",
+      "url": "/recalls",
+      "icons": [
+        {
+          "src": "/icons/recalls-shortcut.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

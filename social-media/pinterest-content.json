@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pinterest_1",
+    "platform": "pinterest",
+    "title": "Fall Weather Safety Checklist",
+    "description": "Essential fall weather safety tips and emergency preparedness checklist. Save this pin for quick reference! Get more safety tips at https://your-domain.com #WeatherSafety #EmergencyPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    }
+  },
+  {
+    "id": "pinterest_2",
+    "platform": "pinterest",
+    "title": "Emergency Kit Essentials for {Weather_Type}",
+    "description": "Complete emergency kit checklist for winter weather situations. Print and use this guide to stay prepared! More resources: https://your-domain.com #EmergencyKit #WeatherPrep",
+    "boardName": "Weather Safety Tips",
+    "imageUrl": "weather-safety-infographic.jpg",
+    "scheduledTime": "2025-10-09T01:00:00.000Z",
+    "engagement": {
+      "type": "discovery-driven",
+      "tactics": [
+        "Create seasonal boards",
+        "Rich pins",
+        "Join group boards",
+        "Pin consistently"
+      ],
+      "metrics": [
+        "impressions",
+        "saves",
+        "clicks",
+        "close-ups"
+      ]
+    }
+  }
+]
