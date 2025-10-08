@@ -1,0 +1,29 @@
+---
+// src/pages/privacy.astro
+import Base from "../layouts/Base.astro";
+
+const title = "Privacy Policy — RecallWatch";
+const description = "Privacy policy for RecallWatch.";
+const canonical = "https://recallwatch.pages.dev/privacy"
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <h1>Privacy Policy</h1>
+  <p>
+    RecallWatch uses basic web analytics to understand site usage. If you opt to enable Google Analytics (GA4) or Google Tag Manager (GTM), cookies or similar technologies may be used by Google. You can disable analytics at any time by removing those integrations.
+  </p>
+  <p>
+    We do not collect personal information unless you intentionally provide it (for example, by emailing us).
+  </p>
+  <h2>Advertising & Affiliates</h2>
+  <p>
+    If advertising (e.g., Google AdSense) is enabled, ads may use cookies for personalization and measurement in accordance with the ad provider's policies. Affiliate links may earn a commission if you click or make a purchase.
+  </p>
+  <h2>External Links</h2>
+  <p>
+    We link to official sources for recall information. We are not responsible for the content or privacy practices of external sites.
+  </p>
+  <p class="muted" style="color:#6b7280;font-size:0.9rem">
+    This policy may be updated periodically. Last updated {new Date().toISOString().slice(0,10)}.
+  </p>
+</Base>

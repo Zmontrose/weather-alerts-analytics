@@ -1,0 +1,29 @@
+---
+import Base from "../../../src/layouts/Base.astro";
+export async function getStaticPaths() {
+  const alerts = (await import("../../../data/alerts.json")).default;
+  return alerts.items.slice(0,1000).map(a => ({ params: { id: a.id }, props: { id: a.id } }));
+}
+const { id } = Astro.props;
+const alerts = (await import("../../../data/alerts.json")).default;
+const a = alerts.items.find(x => x.id === id);
+const title = a ? `${a.event} — ${a.severity}` : 'Alert';
+const description = a?.headline || a?.description?.slice(0,150) || 'Weather alert';
+const canonical = `https://weather-alerts-now.pages.dev/alerts/${encodeURIComponent(id)}`;
+---
+<Base title={title} description={description} canonical={canonical}>
+  <h1>{title}</h1>
+  {a ? (
+    <>
+      <p><strong>Severity:</strong> {a.severity}</p>
+      <p><strong>States:</strong> {a.states?.join(', ')}</p>
+      <p><strong>Sent:</strong> {a.sent} · <strong>Expires:</strong> {a.expires}</p>
+      <p><strong>Headline:</strong> {a.headline}</p>
+      <p style="white-space:pre-wrap">{a.description}</p>
+      {a.instruction && <p><strong>Instruction:</strong> {a.instruction}</p>}
+      {a.areaDesc && <p><strong>Areas:</strong> {a.areaDesc}</p>}
+    </>
+  ) : (
+    <p>Alert not found.</p>
+  )}
+</Base>

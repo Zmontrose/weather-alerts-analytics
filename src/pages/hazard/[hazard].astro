@@ -1,0 +1,24 @@
+---
+import Base from "../../../src/layouts/Base.astro";
+export async function getStaticPaths() {
+  const alerts = (await import("../../../data/alerts.json")).default;
+  const hazards = Array.from(new Set(alerts.items.map(a => a.event)));
+  return hazards.map(h => ({ params: { hazard: h }, props: { hazard: h } }));
+}
+const { hazard } = Astro.props;
+const alerts = (await import("../../../data/alerts.json")).default;
+const items = alerts.items.filter(a => a.event === hazard);
+const title = `${hazard} Alerts`;
+const description = `Active ${hazard} alerts`;
+const canonical = `https://weather-alerts-now.pages.dev/hazard/${encodeURIComponent(hazard)}`;
+---
+<Base title={title} description={description} canonical={canonical}>
+  <h1>{title}</h1>
+  <ul>
+    {items.map(a => (
+      <li>
+        <a href={`/alerts/${encodeURIComponent(a.id)}`}>{a.headline || a.event}</a>
+      </li>
+    ))}
+  </ul>
+</Base>

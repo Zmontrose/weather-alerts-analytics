@@ -1,0 +1,27 @@
+---
+// src/pages/brand/[brand].astro
+import Base from "../../layouts/Base.astro";
+export async function getStaticPaths() {
+  const recalls = (await import("../../../data/recalls.json")).default;
+  const uniq = new Map();
+  for (const r of recalls) {
+    if (!uniq.has(r.brandSlug)) uniq.set(r.brandSlug, r.brand);
+  }
+  return Array.from(uniq, ([slug, name]) => ({ params: { brand: slug }, props: { name } }));
+}
+
+const { name } = Astro.props;
+const brandSlug = Astro.params.brand;
+const recalls = (await import("../../../data/recalls.json")).default;
+const items = recalls.filter(r => r.brandSlug === brandSlug);
+const title = `Recalls for ${name}`;
+const description = `Recent recalls for ${name}`;
+const canonical = `https://recallwatch.pages.dev/brand/${brandSlug}`;
+---
+
+<Base title={title} description={description} canonical={canonical}>
+      <h1>{title}</h1>
+      <ul>
+        {items.map(r => <li><a href={`/recalls/${r.id}`}>{r.product}</a> — {r.hazard || 'Safety notice'}</li>)}
+      </ul>
+</Base>

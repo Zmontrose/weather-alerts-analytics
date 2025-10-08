@@ -1,0 +1,18 @@
+---
+// src/pages/contact.astro
+import Base from "../layouts/Base.astro";
+
+const title = "Contact RecallWatch";
+const description = "How to contact the RecallWatch team";
+const canonical = "https://recallwatch.pages.dev/contact"
+const contactEmail = "zachmontrose7551@gmail.com";
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <h1>Contact</h1>
+  <p>Questions or issues? Please reach us by email.</p>
+  <p>
+    Email: <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
+  </p>
+  <p style="color:#6b7280;font-size:0.9rem">Tip: replace the email address in <code>src/pages/contact.astro</code> with your preferred contact email.</p>
+</Base>

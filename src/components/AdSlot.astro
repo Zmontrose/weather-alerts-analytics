@@ -1,0 +1,27 @@
+---
+// src/components/AdSlot.astro
+const ADS_PUB = import.meta.env.PUBLIC_ADSENSE_PUB_ID;
+const SLOT = import.meta.env.PUBLIC_ADSENSE_SLOT_ID;
+---
+
+{!ADS_PUB ? (
+  <div style="border:1px dashed #e5e7eb;padding:12px;border-radius:8px;color:#6b7280">
+    Ad placeholder — set PUBLIC_ADSENSE_PUB_ID in .env to enable.
+  </div>
+) : !SLOT ? (
+  <div style="border:1px dashed #e5e7eb;padding:12px;border-radius:8px;color:#6b7280">
+    AdSense enabled. Create a display ad unit and set PUBLIC_ADSENSE_SLOT_ID to render it here.
+  </div>
+) : (
+  <>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client={`ca-pub-${ADS_PUB}`}
+      data-ad-slot={SLOT}
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      {("(adsbygoogle = window.adsbygoogle || []).push({});")}
+    </script>
+  </>
+)}

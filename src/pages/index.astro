@@ -1,0 +1,59 @@
+---
+// src/pages/index.astro
+import Base from "../layouts/Base.astro";
+import AdSlot from "../components/AdSlot.astro";
+import alerts from "../../data/alerts.json";
+
+const total = alerts.items.length;
+const byBrand = new Map();
+const byCategory = new Map();
+const byState = new Map();
+
+for (const r of recalls) {
+  byBrand.set(r.brandSlug, { name: r.brand, slug: r.brandSlug, count: (byBrand.get(r.brandSlug)?.count || 0) + 1 });
+  byCategory.set(r.categorySlug, { name: r.category, slug: r.categorySlug, count: (byCategory.get(r.categorySlug)?.count || 0) + 1 });
+  for (const s of r.stateSlugs) {
+    const display = r.states[r.stateSlugs.indexOf(s)] || s;
+    byState.set(s, { name: display, slug: s, count: (byState.get(s)?.count || 0) + 1 });
+  }
+}
+
+const hazards = alerts.summary.hazards.slice(0,15);
+const states = alerts.summary.states.slice(0,30);
+const latest = alerts.items.slice(0,50);
+
+const title = `Product Recalls Monitor`;
+const description = `Latest consumer product recalls: browse by brand, category, or state.`;
+const canonical = `https://recallwatch.pages.dev/`;
+---
+
+<Base title={title} description={description} canonical={canonical}>
+      <h1>{title}</h1>
+      <AdSlot />
+      <p>{total} recall notices indexed from OpenFDA (recent years).</p>
+
+<section>
+        <h2>Hazards</h2>
+        <ul>
+          {hazards.map(h => <li><a href={`/hazard/{encodeURIComponent(h.name)}`}>{h.name}</a> — {h.count}</li>)}
+        </ul>
+      </section>
+
+      <section>
+        <h2>States</h2>
+        <ul>
+          {states.map(s => <li><a href={`/state/{s.name}`}>{s.name}</a> — {s.count}</li>)}
+        </ul>
+      </section>
+
+      <section>
+        <h2>Latest alerts</h2>
+        <ul>
+          {latest.map(a => <li><a href={`/alerts/{encodeURIComponent(a.id)}`}>{a.event}</a> — {a.headline || a.description?.slice(0,80) || ''}</li>)}
+        </ul>
+      </section>
+
+      <p style="margin-top:2rem;font-size:0.9em;color:#666">Source: OpenFDA Food Enforcement API. This site provides summaries for convenience; always consult the official notice.</p>
+
+      <p><a href="/success">Revenue Success →</a></p>
+</Base>
