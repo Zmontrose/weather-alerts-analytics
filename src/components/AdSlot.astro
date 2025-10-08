@@ -1,27 +1,135 @@
 ---
 // src/components/AdSlot.astro
+// Props: type="banner" | "square" | "skyscraper" | "mobile", className="custom-class"
+interface Props {
+  type?: "banner" | "square" | "skyscraper" | "mobile" | "responsive";
+  className?: string;
+  slotId?: string;
+}
+
+const { type = "responsive", className = "", slotId } = Astro.props;
 const ADS_PUB = import.meta.env.PUBLIC_ADSENSE_PUB_ID;
-const SLOT = import.meta.env.PUBLIC_ADSENSE_SLOT_ID;
+const SLOT = slotId || import.meta.env.PUBLIC_ADSENSE_SLOT_ID;
+
+// Ad slot dimensions based on type
+const getAdStyle = (type: string) => {
+  switch(type) {
+    case "banner": return "width:728px;height:90px;";
+    case "square": return "width:300px;height:250px;";
+    case "skyscraper": return "width:160px;height:600px;";
+    case "mobile": return "width:320px;height:50px;";
+    default: return "display:block;";
+  }
+};
+
+const getAdFormat = (type: string) => {
+  switch(type) {
+    case "banner": return "leaderboard";
+    case "square": return "rectangle";
+    case "skyscraper": return "vertical";
+    case "mobile": return "fluid";
+    default: return "auto";
+  }
+};
 ---
 
-{!ADS_PUB ? (
-  <div style="border:1px dashed #e5e7eb;padding:12px;border-radius:8px;color:#6b7280">
-    Ad placeholder — set PUBLIC_ADSENSE_PUB_ID in .env to enable.
-  </div>
-) : !SLOT ? (
-  <div style="border:1px dashed #e5e7eb;padding:12px;border-radius:8px;color:#6b7280">
-    AdSense enabled. Create a display ad unit and set PUBLIC_ADSENSE_SLOT_ID to render it here.
-  </div>
-) : (
-  <>
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client={`ca-pub-${ADS_PUB}`}
-      data-ad-slot={SLOT}
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-    <script>
-      {("(adsbygoogle = window.adsbygoogle || []).push({});")}
-    </script>
-  </>
-)}
+<div class={`ad-container ad-${type} ${className}`.trim()}>
+  {!ADS_PUB ? (
+    <div class="ad-placeholder">
+      <div class="ad-placeholder-content">
+        📢 Ad Space ({type})<br>
+        <small>Set PUBLIC_ADSENSE_PUB_ID in .env to enable ads</small>
+      </div>
+    </div>
+  ) : !SLOT ? (
+    <div class="ad-placeholder">
+      <div class="ad-placeholder-content">
+        ✅ AdSense Ready<br>
+        <small>Create ad unit & set PUBLIC_ADSENSE_SLOT_ID</small>
+      </div>
+    </div>
+  ) : (
+    <>
+      <ins class="adsbygoogle"
+        style={getAdStyle(type)}
+        data-ad-client={`ca-pub-${ADS_PUB}`}
+        data-ad-slot={SLOT}
+        data-ad-format={getAdFormat(type)}
+        data-full-width-responsive={type === "responsive" ? "true" : "false"}></ins>
+      <script>
+        {("(adsbygoogle = window.adsbygoogle || []).push({});")}
+      </script>
+    </>
+  )}
+</div>
+
+<style>
+  .ad-container {
+    margin: 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ad-banner {
+    max-width: 728px;
+    min-height: 90px;
+  }
+  
+  .ad-square {
+    max-width: 300px;
+    min-height: 250px;
+  }
+  
+  .ad-skyscraper {
+    max-width: 160px;
+    min-height: 600px;
+  }
+  
+  .ad-mobile {
+    max-width: 320px;
+    min-height: 50px;
+  }
+  
+  .ad-responsive {
+    width: 100%;
+    min-height: 280px;
+  }
+  
+  .ad-placeholder {
+    border: 2px dashed #e5e7eb;
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ad-placeholder-content {
+    text-align: center;
+    color: #6b7280;
+    font-size: 1rem;
+  }
+  
+  .ad-placeholder-content small {
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  
+  @media (max-width: 768px) {
+    .ad-banner,
+    .ad-square,
+    .ad-skyscraper {
+      max-width: 100%;
+      width: 100%;
+    }
+    
+    .ad-container {
+      margin: 1.5rem 0;
+    }
+  }
+</style>

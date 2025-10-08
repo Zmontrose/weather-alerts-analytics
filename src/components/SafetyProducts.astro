@@ -1,0 +1,179 @@
+---
+// src/components/SafetyProducts.astro
+// Safety product recommendations component
+import AffiliateLink from "./AffiliateLink.astro";
+
+interface Props {
+  category?: "general" | "weather" | "air-quality" | "food-safety";
+  title?: string;
+  className?: string;
+}
+
+const { category = "general", title = "Recommended Safety Products", className = "" } = Astro.props;
+
+// Safety product recommendations by category
+const productData = {
+  general: [
+    {
+      title: "First Aid Kit",
+      href: "https://amazon.com/dp/B000069EYA",
+      description: "Essential emergency medical supplies for home and travel",
+      price: "$24.99",
+      rating: "4.5",
+      affiliate: "amazon" as const
+    },
+    {
+      title: "Emergency Water Filter",
+      href: "https://amazon.com/dp/B00FAUP6V6",
+      description: "Portable water purification for emergency preparedness",
+      price: "$19.95",
+      rating: "4.7",
+      affiliate: "amazon" as const
+    }
+  ],
+  weather: [
+    {
+      title: "Weather Radio",
+      href: "https://amazon.com/dp/B01FFQP7AS",
+      description: "NOAA emergency weather radio with alerts and solar charging",
+      price: "$49.99",
+      rating: "4.6",
+      affiliate: "amazon" as const
+    },
+    {
+      title: "Emergency Flashlight",
+      href: "https://amazon.com/dp/B07RNLM8L3",
+      description: "Hand crank LED flashlight with USB charging capability",
+      price: "$15.99",
+      rating: "4.4",
+      affiliate: "amazon" as const
+    }
+  ],
+  "air-quality": [
+    {
+      title: "Air Quality Monitor",
+      href: "https://amazon.com/dp/B0784TZFRW",
+      description: "Real-time indoor air quality monitoring for PM2.5, VOCs, and more",
+      price: "$199.99",
+      rating: "4.3",
+      affiliate: "amazon" as const
+    },
+    {
+      title: "N95 Masks",
+      href: "https://amazon.com/dp/B08X6P5Q8Q",
+      description: "NIOSH-approved respirator masks for air pollution protection",
+      price: "$29.99",
+      rating: "4.2",
+      affiliate: "amazon" as const
+    }
+  ],
+  "food-safety": [
+    {
+      title: "Food Thermometer",
+      href: "https://amazon.com/dp/B077GB8D6C",
+      description: "Instant-read digital thermometer for food safety",
+      price: "$12.99",
+      rating: "4.8",
+      affiliate: "amazon" as const
+    },
+    {
+      title: "Food Storage Containers",
+      href: "https://amazon.com/dp/B07G5R1FXZ",
+      description: "BPA-free airtight containers to prevent contamination",
+      price: "$34.95",
+      rating: "4.5",
+      affiliate: "amazon" as const
+    }
+  ]
+};
+
+const products = productData[category] || productData.general;
+---
+
+<section class={`safety-products-section ${className}`.trim()}>
+  <div class="section-header">
+    <h3>{title}</h3>
+    <p class="section-subtitle">Stay prepared with essential safety equipment</p>
+  </div>
+  
+  <div class="products-grid">
+    {products.map(product => (
+      <AffiliateLink 
+        {...product}
+        className="safety-product-item"
+      />
+    ))}
+  </div>
+  
+  <div class="affiliate-disclaimer">
+    <p>
+      <strong>Affiliate Disclosure:</strong> AlertsAnalytics may earn a commission from purchases made through affiliate links. 
+      This helps support our free public safety monitoring service at no extra cost to you.
+    </p>
+  </div>
+</section>
+
+<style>
+  .safety-products-section {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .section-header h3 {
+    margin: 0 0 0.5rem 0;
+    color: #1f2937;
+    font-size: 1.5rem;
+  }
+  
+  .section-subtitle {
+    color: #6b7280;
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .affiliate-disclaimer {
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .affiliate-disclaimer p {
+    margin: 0;
+    color: #92400e;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 768px) {
+    .safety-products-section {
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    
+    .products-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    
+    .section-header h3 {
+      font-size: 1.3rem;
+    }
+  }
+</style>

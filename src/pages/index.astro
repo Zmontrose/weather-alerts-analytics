@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import AdSlot from "../components/AdSlot.astro";
+import NewsletterSignup from "../components/NewsletterSignup.astro";
 
 // Import all data sources
 const recalls = (await import("../../data/recalls.json")).default;
@@ -41,7 +42,7 @@ const latestAlerts = alerts.items.slice(0,3);
 
 const title = `Public Safety Analytics - Weather, Air Quality & Product Recalls`;
 const description = `Real-time monitoring of weather alerts, air quality data, and product recalls from public data sources.`;
-const canonical = `https://weather-alerts-analytics.pages.dev/`;
+const canonical = `https://alertsanalytics.com/`;
 ---
 
 <Base title={title} description={description} canonical={canonical}>
@@ -70,6 +71,9 @@ const canonical = `https://weather-alerts-analytics.pages.dev/`;
 
   <div class="main-content">
     <div class="data-sections">
+      
+      <!-- Top Banner Ad -->
+      <AdSlot type="banner" className="homepage-top-ad" />
       
       <!-- Weather Alerts Section -->
       <section class="data-section">
@@ -111,6 +115,9 @@ const canonical = `https://weather-alerts-analytics.pages.dev/`;
         </div>
       </section>
 
+      <!-- Mid-Content Square Ad -->
+      <AdSlot type="square" className="homepage-mid-ad" />
+      
       <!-- Product Recalls Section -->
       <section class="data-section">
         <div class="section-header">
@@ -147,6 +154,15 @@ const canonical = `https://weather-alerts-analytics.pages.dev/`;
 
     </div>
   </div>
+
+  <!-- Bottom Responsive Ad -->
+  <AdSlot type="responsive" className="homepage-bottom-ad" />
+
+  <!-- Newsletter Signup -->
+  <NewsletterSignup 
+    title="Never Miss Critical Safety Alerts" 
+    description="Join thousands who rely on AlertsAnalytics for real-time safety monitoring. Get weather warnings, air quality alerts, and product recalls delivered straight to your inbox."
+  />
 
   <footer class="data-sources">
     <h3>Data Sources</h3>

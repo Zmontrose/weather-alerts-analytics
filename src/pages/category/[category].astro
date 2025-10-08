@@ -16,7 +16,7 @@ const recalls = (await import("../../../data/recalls.json")).default;
 const items = recalls.filter(r => r.categorySlug === categorySlug);
 const title = `${name} Recalls`;
 const description = `Recent ${name} recalls`;
-const canonical = `https://recallwatch.pages.dev/category/${categorySlug}`;
+const canonical = `https://alertsanalytics.com/category/${categorySlug}`;
 ---
 
 <Base title={title} description={description} canonical={canonical}>

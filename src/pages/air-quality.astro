@@ -1,12 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
+import AdSlot from "../components/AdSlot.astro";
+import SafetyProducts from "../components/SafetyProducts.astro";
 
 const airQuality = (await import("../../data/air-quality.json")).default;
 const { cities, summary } = airQuality;
 
 const title = "Air Quality Index - Real-time AQI Data";
 const description = `Current air quality data for ${summary.totalCities} major US cities. Average AQI: ${summary.averageAQI}`;
-const canonical = "https://weather-alerts-analytics.pages.dev/air-quality";
+const canonical = "https://alertsanalytics.com/air-quality";
 ---
 
 <Base title={title} description={description} canonical={canonical}>
@@ -58,6 +60,8 @@ const canonical = "https://weather-alerts-analytics.pages.dev/air-quality";
       </div>
     </div>
 
+    <AdSlot type="banner" className="air-quality-top" />
+
     <div class="cities-grid">
       {cities.map(city => (
         <div class="city-card" data-level={city.level.toLowerCase().replace(/ /g, '-')}>
@@ -84,6 +88,13 @@ const canonical = "https://weather-alerts-analytics.pages.dev/air-quality";
         </div>
       ))}
     </div>
+
+    <SafetyProducts 
+      category="air-quality" 
+      title="Air Quality Protection Products" 
+    />
+    
+    <AdSlot type="responsive" className="air-quality-bottom" />
 
     <div class="data-info">
       <p><small>Data updated: {new Date(summary.fetchedAt).toLocaleString()}</small></p>

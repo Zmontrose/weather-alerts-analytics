@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const title = `${item.brand} ${item.product} Recall — ${item.hazard || 'Safety Notice'}`;
 const description = item.hazard || `Recall notice for ${item.product}`;
-const canonical = `https://recallwatch.pages.dev/recalls/${item.id}`;
+const canonical = `https://alertsanalytics.com/recalls/${item.id}`;
 ---
 
 <Base title={title} description={description} canonical={canonical}>

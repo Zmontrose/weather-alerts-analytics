@@ -1,0 +1,172 @@
+---
+// src/components/AffiliateLink.astro
+// Affiliate link component with proper tracking and disclosure
+interface Props {
+  href: string;
+  title: string;
+  description?: string;
+  price?: string;
+  rating?: string;
+  image?: string;
+  affiliate: "amazon" | "custom";
+  className?: string;
+}
+
+const { 
+  href, 
+  title, 
+  description, 
+  price, 
+  rating, 
+  image, 
+  affiliate, 
+  className = ""
+} = Astro.props;
+
+const AMAZON_TAG = import.meta.env.PUBLIC_AMAZON_TAG;
+
+// Add affiliate tracking to URL
+const getAffiliateUrl = (url: string, affiliate: string) => {
+  if (affiliate === "amazon" && AMAZON_TAG && url.includes("amazon.com")) {
+    const separator = url.includes("?") ? "&" : "?";
+    return `${url}${separator}tag=${AMAZON_TAG}`;
+  }
+  return url;
+};
+
+const finalUrl = getAffiliateUrl(href, affiliate);
+---
+
+<div class={`affiliate-product ${className}`.trim()}>
+  {image && (
+    <div class="product-image">
+      <img src={image} alt={title} loading="lazy" />
+    </div>
+  )}
+  
+  <div class="product-info">
+    <h4 class="product-title">
+      <a href={finalUrl} target="_blank" rel="noopener sponsored" class="affiliate-link">
+        {title}
+        <span class="external-icon">↗</span>
+      </a>
+    </h4>
+    
+    {description && (
+      <p class="product-description">{description}</p>
+    )}
+    
+    <div class="product-meta">
+      {price && (
+        <span class="product-price">{price}</span>
+      )}
+      {rating && (
+        <span class="product-rating">⭐ {rating}</span>
+      )}
+    </div>
+    
+    <div class="affiliate-disclosure">
+      <small>Affiliate link - we may earn a commission</small>
+    </div>
+  </div>
+</div>
+
+<style>
+  .affiliate-product {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .affiliate-product:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .product-image {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .product-image img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .product-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .affiliate-link {
+    color: #1d4ed8;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .affiliate-link:hover {
+    text-decoration: underline;
+  }
+  
+  .external-icon {
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  
+  .product-description {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    line-height: 1.4;
+  }
+  
+  .product-meta {
+    display: flex;
+    gap: 1rem;
+    margin: 0.75rem 0;
+    align-items: center;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #059669;
+    font-size: 1.1rem;
+  }
+  
+  .product-rating {
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  
+  .affiliate-disclosure {
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #f3f4f6;
+  }
+  
+  .affiliate-disclosure small {
+    color: #9ca3af;
+    font-size: 0.75rem;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .affiliate-product {
+      padding: 0.75rem;
+    }
+    
+    .product-image img {
+      max-width: 120px;
+    }
+    
+    .product-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+  }
+</style>

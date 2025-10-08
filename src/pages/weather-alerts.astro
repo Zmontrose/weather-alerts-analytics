@@ -1,12 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
+import AdSlot from "../components/AdSlot.astro";
+import SafetyProducts from "../components/SafetyProducts.astro";
 
 const alerts = (await import("../../data/alerts.json")).default;
 const { items, summary } = alerts;
 
 const title = "Weather Alerts - Active Weather Warnings & Watches";
 const description = `Current weather alerts and warnings. ${summary.total} active alerts monitored nationwide.`;
-const canonical = "https://weather-alerts-analytics.pages.dev/weather-alerts";
+const canonical = "https://alertsanalytics.com/weather-alerts";
 
 function getSeverityColor(severity) {
   switch (severity?.toLowerCase()) {
@@ -63,6 +65,8 @@ function getEventType(event) {
         </div>
       )}
     </div>
+
+    <AdSlot type="banner" className="alerts-page-top" />
 
     <div class="alerts-grid">
       {items.length === 0 ? (
@@ -121,6 +125,13 @@ function getEventType(event) {
         ))
       )}
     </div>
+
+    <SafetyProducts 
+      category="weather" 
+      title="Weather Emergency Preparedness" 
+    />
+    
+    <AdSlot type="responsive" className="alerts-page-bottom" />
 
     <div class="data-info">
       <p><small>Data updated: {new Date(summary.fetchedAt).toLocaleString()}</small></p>

@@ -1,6 +1,6 @@
 ---
 // src/layouts/Base.astro
-const { title = 'RecallWatch', description = '', canonical = '' } = Astro.props;
+const { title = 'AlertsAnalytics', description = '', canonical = '' } = Astro.props;
 const GA_ID = import.meta.env.PUBLIC_GA4_ID;
 const GTM_ID = import.meta.env.PUBLIC_GTM_ID;
 const ADS_PUB = import.meta.env.PUBLIC_ADSENSE_PUB_ID;
@@ -73,7 +73,7 @@ const FIRST_TAG_ID = GA_ID || GADS_ID;
     </main>
 
     <footer>
-      <div>© {new Date().getFullYear()} RecallWatch — Independent summaries from public data sources. Not affiliated with or endorsed by any brand or agency.</div>
+      <div>© {new Date().getFullYear()} AlertsAnalytics — Real-time public safety monitoring. Independent data analysis, not affiliated with any government agency.</div>
     </footer>
   </body>
 </html>

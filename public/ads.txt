@@ -1,4 +1,21 @@
-# ads.txt placeholder for monetization
-# Replace the lines below with entries from your ad partners once approved.
-# Example for Google AdSense (replace with your actual publisher ID):
-# google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+# ads.txt for AlertsAnalytics.com
+# This file authorizes ad networks to sell advertising on this site
+# Update with your actual publisher IDs once approved
+
+# Google AdSense - Replace 'pub-XXXXXXXXXXXXXXXX' with your actual AdSense Publisher ID
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Other ad networks (uncomment and update as needed):
+# Example Media.net:
+# media.net, 8CUX5YXA3, DIRECT
+
+# Example for other programmatic partners:
+# openx.com, 123456789, RESELLER, 6a698e2ec38604c6
+# pubmatic.com, 123456, RESELLER, 5d62403b186f2ace
+# amazon-adsystem.com, 3123, RESELLER
+
+# Instructions:
+# 1. Apply for Google AdSense approval at https://www.google.com/adsense/
+# 2. Once approved, replace the commented line above with your actual publisher ID
+# 3. Test the ads.txt file accessibility at https://alertsanalytics.com/ads.txt
+# 4. Monitor ad performance and add additional networks as needed

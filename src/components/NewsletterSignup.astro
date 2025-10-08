@@ -1,0 +1,314 @@
+---
+// src/components/NewsletterSignup.astro
+// Email newsletter signup component
+interface Props {
+  title?: string;
+  description?: string;
+  className?: string;
+  position?: "inline" | "footer" | "sidebar";
+}
+
+const { 
+  title = "Stay Informed with AlertsAnalytics", 
+  description = "Get weekly safety alerts, air quality updates, and product recall notifications delivered to your inbox.",
+  className = "",
+  position = "inline"
+} = Astro.props;
+---
+
+<section class={`newsletter-signup ${position} ${className}`.trim()}>
+  <div class="newsletter-content">
+    <div class="newsletter-header">
+      <h3 class="newsletter-title">{title}</h3>
+      <p class="newsletter-description">{description}</p>
+    </div>
+    
+    <form class="newsletter-form" action="#" method="post" id="newsletter-form">
+      <div class="form-group">
+        <div class="input-group">
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="Enter your email address"
+            required
+            class="email-input"
+            aria-label="Email address"
+          />
+          <button type="submit" class="submit-button">
+            Subscribe
+          </button>
+        </div>
+        
+        <div class="form-options">
+          <label class="checkbox-label">
+            <input type="checkbox" name="alerts" checked />
+            <span class="checkmark"></span>
+            Weather alerts & safety updates
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="recalls" checked />
+            <span class="checkmark"></span>
+            Product recall notifications
+          </label>
+        </div>
+      </div>
+      
+      <div class="privacy-notice">
+        <small>
+          By subscribing, you agree to receive emails from AlertsAnalytics. 
+          We respect your privacy and you can unsubscribe at any time.
+          <a href="/privacy">Privacy Policy</a>
+        </small>
+      </div>
+    </form>
+    
+    <div class="newsletter-benefits">
+      <div class="benefit-item">
+        <span class="benefit-icon">🚨</span>
+        <span>Critical safety alerts</span>
+      </div>
+      <div class="benefit-item">
+        <span class="benefit-icon">🌫️</span>
+        <span>Air quality updates</span>
+      </div>
+      <div class="benefit-item">
+        <span class="benefit-icon">⚠️</span>
+        <span>Product recall summaries</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Newsletter form handling
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('newsletter-form');
+    
+    if (form) {
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(form);
+        const email = formData.get('email');
+        const alerts = formData.get('alerts');
+        const recalls = formData.get('recalls');
+        
+        // Replace this with your actual newsletter service endpoint
+        // Examples: ConvertKit, Mailchimp, Beehiiv, etc.
+        const NEWSLETTER_ENDPOINT = '/api/newsletter-signup';
+        
+        try {
+          const button = form.querySelector('.submit-button');
+          const originalText = button.textContent;
+          button.textContent = 'Subscribing...';
+          button.disabled = true;
+          
+          // Simulated API call - replace with actual service
+          setTimeout(() => {
+            button.textContent = '✓ Subscribed!';
+            button.style.backgroundColor = '#10b981';
+            
+            // Track newsletter signup for analytics
+            if (typeof gtag !== 'undefined') {
+              gtag('event', 'newsletter_signup', {
+                'event_category': 'engagement',
+                'event_label': 'newsletter'
+              });
+            }
+            
+            // Reset form after delay
+            setTimeout(() => {
+              form.reset();
+              button.textContent = originalText;
+              button.disabled = false;
+              button.style.backgroundColor = '';
+            }, 3000);
+          }, 1000);
+          
+        } catch (error) {
+          console.error('Newsletter signup error:', error);
+          const button = form.querySelector('.submit-button');
+          button.textContent = 'Try Again';
+          button.disabled = false;
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+  .newsletter-signup {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .newsletter-signup.footer {
+    background: #1f2937;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  .newsletter-signup.sidebar {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .newsletter-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .newsletter-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter-title {
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .newsletter-description {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .newsletter-form {
+    margin-bottom: 2rem;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .submit-button {
+    background: #059669;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background: #047857;
+  }
+  
+  .submit-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .form-options {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+  
+  .checkbox-label input {
+    margin: 0;
+  }
+  
+  .privacy-notice {
+    text-align: center;
+    opacity: 0.8;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+  
+  .privacy-notice a {
+    color: #fbbf24;
+    text-decoration: underline;
+  }
+  
+  .newsletter-benefits {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+  
+  .benefit-icon {
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .newsletter-signup {
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    
+    .newsletter-title {
+      font-size: 1.5rem;
+    }
+    
+    .newsletter-description {
+      font-size: 1rem;
+    }
+    
+    .input-group {
+      flex-direction: column;
+      border-radius: 8px;
+    }
+    
+    .email-input {
+      border-radius: 8px 8px 0 0;
+    }
+    
+    .submit-button {
+      border-radius: 0 0 8px 8px;
+      padding: 1.2rem;
+    }
+    
+    .form-options {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .newsletter-benefits {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>
