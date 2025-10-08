@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Weekly Safety Digest",
+    "subject": "Your Weekly Safety Update - {{date}}",
+    "template": "\nHi {{first_name}},\n\nHere's your weekly safety update for {{week_of}}:\n\n## 🌪️ WEATHER ALERTS THIS WEEK\n{{weather_alerts_summary}}\n\n## 🌫️ AIR QUALITY REPORT  \n{{air_quality_summary}}\n\n## ⚠️ NEW PRODUCT RECALLS\n{{recalls_summary}}\n\n## 📚 SAFETY TIP OF THE WEEK\n{{safety_tip}}\n\n## 🔗 RECOMMENDED SAFETY PRODUCTS\n{{affiliate_products}}\n\n---\n\n**QUICK ACTIONS:**\n• Check weather alerts: [Your Local Alerts]\n• View air quality: [AQI Tool]  \n• Search recalls: [Recall Database]\n\nStay safe,\nAlertsAnalytics Team\n\n---\nYou're receiving this because you subscribed to AlertsAnalytics.\n[Unsubscribe] | [Update Preferences] | [Forward to Friend]\n            "
+  },
+  {
+    "name": "Emergency Alert",
+    "subject": "🚨 URGENT: {{alert_type}} Alert for {{location}}",
+    "template": "\n🚨 EMERGENCY ALERT 🚨\n\n{{alert_headline}}\n\n**EFFECTIVE:** {{effective_time}}\n**EXPIRES:** {{expires_time}}\n**AREAS:** {{affected_areas}}\n\n## IMMEDIATE ACTIONS REQUIRED:\n{{instructions}}\n\n## SAFETY RECOMMENDATIONS:\n{{safety_actions}}\n\n**For latest updates:** {{official_source}}\n\n**Emergency Services:** Call 911 if immediate danger\n\n---\nThis is an automated emergency alert from AlertsAnalytics.\n[Emergency Preparedness Guide] | [Local Emergency Info]\n            "
+  }
+]

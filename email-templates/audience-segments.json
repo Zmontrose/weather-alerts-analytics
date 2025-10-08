@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Weather Alert Subscribers",
+    "criteria": "Interested in severe weather alerts",
+    "tags": [
+      "weather_alerts",
+      "emergency_prep"
+    ],
+    "content_focus": "Weather safety, emergency preparedness"
+  },
+  {
+    "name": "Air Quality Focused",
+    "criteria": "Concerned about air pollution and health",
+    "tags": [
+      "air_quality",
+      "health"
+    ],
+    "content_focus": "Air quality reports, health protection"
+  },
+  {
+    "name": "Product Safety Conscious",
+    "criteria": "Wants product recall notifications",
+    "tags": [
+      "recalls",
+      "product_safety"
+    ],
+    "content_focus": "Recall alerts, consumer protection"
+  },
+  {
+    "name": "Emergency Preparedness",
+    "criteria": "Building emergency readiness",
+    "tags": [
+      "emergency_kit",
+      "preparedness"
+    ],
+    "content_focus": "Survival tips, emergency supplies"
+  },
+  {
+    "name": "New Subscribers",
+    "criteria": "Subscribed within last 30 days",
+    "tags": [
+      "new_subscriber"
+    ],
+    "content_focus": "Welcome sequence, basic safety education"
+  }
+]

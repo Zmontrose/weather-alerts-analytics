@@ -1,0 +1,23 @@
+[
+  {
+    "test_name": "Subject Line Test - Urgency",
+    "element": "Subject line",
+    "variation_a": "Your Weekly Safety Update",
+    "variation_b": "🚨 Critical Safety Updates Inside",
+    "hypothesis": "Urgency and emojis increase open rates"
+  },
+  {
+    "test_name": "CTA Button Test",
+    "element": "Call-to-action",
+    "variation_a": "Read More",
+    "variation_b": "Get Safety Details →",
+    "hypothesis": "Action-oriented CTAs get more clicks"
+  },
+  {
+    "test_name": "Send Time Test",
+    "element": "Send time",
+    "variation_a": "Tuesday 9 AM",
+    "variation_b": "Wednesday 2 PM",
+    "hypothesis": "Mid-week afternoon performs better"
+  }
+]

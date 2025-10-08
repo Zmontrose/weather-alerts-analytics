@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Welcome Series",
+    "trigger": "New subscriber",
+    "duration": "14 days",
+    "emails": 5,
+    "goal": "Educate about safety topics, build engagement"
+  },
+  {
+    "name": "Weather Alert Sequence",
+    "trigger": "Severe weather in subscriber's area",
+    "duration": "During alert + 24 hours",
+    "emails": "As needed",
+    "goal": "Provide critical safety information"
+  },
+  {
+    "name": "Product Recall Notification",
+    "trigger": "High-priority recall affecting subscriber's interests",
+    "duration": "Immediate",
+    "emails": 1,
+    "goal": "Inform about dangerous products"
+  },
+  {
+    "name": "Seasonal Preparedness",
+    "trigger": "Seasonal change (quarterly)",
+    "duration": "2 weeks",
+    "emails": 3,
+    "goal": "Prepare for seasonal hazards"
+  },
+  {
+    "name": "Re-engagement Campaign",
+    "trigger": "No email opens in 60 days",
+    "duration": "1 week",
+    "emails": 3,
+    "goal": "Win back inactive subscribers"
+  }
+]

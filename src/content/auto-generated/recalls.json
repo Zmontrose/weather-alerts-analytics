@@ -1,0 +1,202 @@
+[
+  {
+    "id": "F-0276-2017",
+    "productDescription": "CytoDetox, Hydrolyzed Clinoptilolite Fragments, 1 oz./30 mL, OTC Non-Sterile.  Dietary supplement.",
+    "reason": "Recall initiated as a precautionary measure due to potential risk of product contamination with Burkholderia cepacia.",
+    "company": "Pharmatech LLC",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20160808",
+    "distribution": "FL, MI, MS, and OH."
+  },
+  {
+    "id": "F-0865-2017",
+    "productDescription": "Koi Palace Mini Moon Cake: Single Box - Mini Oolong Tea Paste  Unit Size 1/2 lb. and 1/4 lb. in circular box (1 piece) and rectangular boxes (4, 6 or 8 pieces).",
+    "reason": "Mooncake products, manufactured and distributed by Magic Gourmet Trading, Inc. of Milbrae, CA did not have adequate product labeling, including ingredient statements and allergen declaration. Undeclared ingredients include wheat, peanut oil.",
+    "company": "Magic Gourmet Trading Inc",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20160831",
+    "distribution": "CA, WA, OR."
+  },
+  {
+    "id": "F-0609-2015",
+    "productDescription": "Crema GuateLinda (Guatemalan Style Cream) in individually soft poly/plastic bags labeled in part: Lacteos Santa Martha Crema GuateLinda Guatemalan Style Cream Net WT 1 LB (16 oz)",
+    "reason": "Virginia State (VDACS) found Listeria monocytogenes in Lacteos Santa Martha Quesito Casero Fresh Curd (Best by 9/27/14), FDA made an inspection, were the environmental samples collected came up positive also for Listeria monocytogenes, also the Oasis Brands Inc. sent finish products samples to a private lab, the Lacteos Santa Martha Cuajada en Hoja Queso Casero Hecho a Mano Fresh Curd (Best By dates of 10/18/14 and 11/25/14) came also positive for Listeria monocytogenes.  Oasis Brands Inc.  is voluntarily recalling ALL their Lacteos Santa Martha brand products manufactured that are within expiration date.",
+    "company": "Oasis Brands, Inc",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20141010",
+    "distribution": "FL, GA. NC, and TN"
+  },
+  {
+    "id": "F-1922-2012",
+    "productDescription": "Yellow Onion.  Product is labeled in part:  \"***FC Salsa Mango\"***Refrigerate at 34 F***\"      Item #   302940 FC SALSA MANGO 2/5#.        Product is fresh made - Ready To Eat.",
+    "reason": "FreshPoint South Florida is recalling sliced fresh yellow onions and salsa products processed using yellow onions sourced from Gills Onions, LLC which were recalled for Listeria monocytogenes.",
+    "company": "FreshPoint South Florida",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20120727",
+    "distribution": "Products were distributed in South Florida."
+  },
+  {
+    "id": "F-0904-2020",
+    "productDescription": "Pure Planet Organic Parasite Cleanse;  Net Wt. 174g Glass Jar;  Finished Product Item # 52700    Manufactured and Distributed by:  Pure Planet,  Rancho Dominguez, CA",
+    "reason": "Firm was notified by supplier that Organic Ground Flaxseed powder was under recall by manufacturer due to unapproved herbicide - Haloxyfop",
+    "company": "Organic By Nature, Inc.",
+    "classification": "Class III",
+    "status": "Terminated",
+    "initiationDate": "20200224",
+    "distribution": "nationwide, Canada and Netherlands"
+  },
+  {
+    "id": "F-1578-2018",
+    "productDescription": "Coffee Toffee - 4 oz. packages. UPC 6 55974 89001 2.    The label is read in parts: \"***Ingredients: butter (milk), sugar, bittersweet chocolate 60% (cocoa liquor, emulsifier, soya lecithin, vanilla), coffee, pecans *** Contains: milk & soya ***\".",
+    "reason": "Coffee Toffee is recalled because pecan is listed on the Ingredients statement but it is not listed in the Contains statement.",
+    "company": "Yukon Jackson",
+    "classification": "Class III",
+    "status": "Terminated",
+    "initiationDate": "20180525",
+    "distribution": "distributed in WA"
+  },
+  {
+    "id": "F-0921-2020",
+    "productDescription": "XinXing Dried Plum, Net Wt. 5.3 oz.(150g)",
+    "reason": "Product contains dried peaches, but front labeling of product stated dried plums",
+    "company": "Rong Shing Trading NY Inc",
+    "classification": "Class III",
+    "status": "Terminated",
+    "initiationDate": "20200401",
+    "distribution": "Unknown"
+  },
+  {
+    "id": "F-2326-2017",
+    "productDescription": "Honey Bourbon Pecans Net Wt. 20 lb. (9.088g) Mfg. By: Trophy Nut Co. Tipp City, OH 45371",
+    "reason": "The firm stated that the product contains undeclared allergens.",
+    "company": "Trophy Nut Co Inc",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20170505",
+    "distribution": "Product was sent to one manufacturer in MI"
+  },
+  {
+    "id": "F-0777-2015",
+    "productDescription": "Gourmet Mix Fruit Delight Net Wt. 64 oz. (1814g) Best If Enjoyed By: 12/03/14, Dist. By: Wegmans Food Markets, Inc., Rochester, NY 14603 UPC 077890241516",
+    "reason": "Possible contamination with Listeria monocytogenes.",
+    "company": "Del Monte Fresh Produce NA, Inc",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20141209",
+    "distribution": "NJ, NY, OH, PA, RI, VA"
+  },
+  {
+    "id": "F-0757-2022",
+    "productDescription": "Marketside 12oz Classic Salad  UPC:6-81131-32894-4  SKU: 3107",
+    "reason": "Harvest equipment used in harvesting raw iceberg lettuce was tested by  Dole and found to contain Listeria monocytogenes.",
+    "company": "Dole Fresh Vegetables Inc",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20220106",
+    "distribution": "Canada: AB, BC, NB, ON, QC, Sk; United States: AL, AZ, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, MS, NC, ND, NE, NV, NY, OH, OK, OR, PA, SC, TN, TX, UT, VA, WA, WI"
+  },
+  {
+    "id": "F-1415-2015",
+    "productDescription": "TranSmart Raspberry Filled frozen unbaked cookie dough, 108/1.75 oz. units, CSM Bakery Products, 3301 Montreal Industrial Way Tucker, GA 30084..",
+    "reason": "Undeclared Allergen; Peanuts.",
+    "company": "CSM Bakery Products NA-Atlanta Frozen",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20140626",
+    "distribution": "AL, GA, FL, IL, IN, MA, MD, MI, NJ, NY, NV, OH, PA and VA."
+  },
+  {
+    "id": "F-1328-2018",
+    "productDescription": "Market Pantry Vanilla Ice Cream 128oz    UPC: 85239014943    Target item number: 288-7-307",
+    "reason": "Shipping container from CA to HI was not held at proper temperature which could cause food items to be contaminated with spoilage organisms or pathogens",
+    "company": "Target Corporation",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20180327",
+    "distribution": "HI"
+  },
+  {
+    "id": "F-0616-2018",
+    "productDescription": "Golden delicious whole fresh apples,   Apple Ridge 5lb, 2-3/4  apples, packaged in red net mesh bags  \"\t3lb, 2-1/2  apples, packaged in poly bags  \"\t2lb, 2-1/2  apples, packaged in poly bags  \"\t45ct individual apples on trays with re-useable plastic container boxes  \"\t50ct, individual apples on trays with re-useable plastic container boxes  \"\t55ct, individual apples on trays with re-useable plastic container boxes  \"\t60ct  individual apples on trays with re-useable plastic container boxes  \"\t78ct individual apples on trays with re-useable plastic container boxes  \"\t50ct, individual apples on trays in cardboard tray  boxes  \"\t55ct, individual apples on trays in cardboard tray  boxes",
+    "reason": "Nyblad Orchards Inc. initiated a voluntary recall of multiple varieties of whole fresh apples due to potential contamination with Listeria monocytogenes.",
+    "company": "Nyblad Orchards",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20171214",
+    "distribution": "Domestic: Michigan    Foreign/VA/DOD: None"
+  },
+  {
+    "id": "F-1472-2022",
+    "productDescription": "Honey Caramels Blue Raspberry. Product available in 5.87 oz. bag, 1 lb. bag, 3 lb. bag, 6 lb. bag. PLU Code for 5.87 oz. bag: 788394 12675 8.",
+    "reason": "Products may potentially contain one or more of the following undeclared tree nuts: Pecans, Almonds, Coconut, Macadamia Nuts, & Walnuts.",
+    "company": "Queen Bee Gardens, LLC",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20220428",
+    "distribution": "Ten retail locations owned by Queen Bee in CO, NM, WY and nationwide via internet sales."
+  },
+  {
+    "id": "F-1671-2024",
+    "productDescription": "1. Palmer Candy Drizzled Caramel Corn, Item 19271, Net Wt. 16/5oz tubs, UPC 77343 19271 2. Meijer Drizzled Caramel Popcorn Snack Bowl, Net Wt. 12oz, UPC 60236 18830, 8/12oz case",
+    "reason": "Potential salmonella contamination",
+    "company": "Palmer & Company",
+    "classification": "Class I",
+    "status": "Ongoing",
+    "initiationDate": "20240503",
+    "distribution": "Nationwide United States and Canada"
+  },
+  {
+    "id": "F-0894-2018",
+    "productDescription": "Grape Fanta, Grape Flavored Soda, 12 oz (355 mL) cans, packed in 12 packs, Canned under the authority of the Coca-Cola Company, Atlanta, GA",
+    "reason": "Sharp edges were observed on several of the cans which have the potential of causing cuts on the mouths of consumers who use the product.",
+    "company": "Heartland Coca-Cola Bottling Company",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20180212",
+    "distribution": "Distributed to retail stores in AR, IA, IL, KS, MO, and NE."
+  },
+  {
+    "id": "F-1233-2022",
+    "productDescription": "ELITE MILK CHOCOLATE COATED RICE CAKES  UPC:815871011884\tNET WT 2.47OZ (70 g)",
+    "reason": "Potential contamination with Salmonella",
+    "company": "ELITE CONFECTIONERY LTD",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20220428",
+    "distribution": "Distributed in the US nationwide"
+  },
+  {
+    "id": "F-1170-2024",
+    "productDescription": "H&NATURAL 2 PACK! BRAZIL SEED 60 PIECES, PURE NATURAL SEMILLA DE BRASIL FOR 60 DAYS, 5 GRAMS PER BOX, 2 BLACK BOXES.",
+    "reason": "Product recalled due to the presence of yellow oleander and its components in the product.",
+    "company": "HandNatural",
+    "classification": "Class I",
+    "status": "Ongoing",
+    "initiationDate": "20240209",
+    "distribution": "Firm is  100% internet sales. Distribution is unknown at this time."
+  },
+  {
+    "id": "F-2387-2014",
+    "productDescription": "Tiny Isle Chocolate Truffles Macadamia Nut: Gluten Free, Raw, Vegan; individual 1 oz. candies,    Tiny Isle  5915 Olohena Road, Unit H  Kapaa, HI 96746",
+    "reason": "Candy was made using carob powder that is currently under recall by the direct supplier due to potential Salmonella contamination.",
+    "company": "Florimont, Inc.",
+    "classification": "Class I",
+    "status": "Terminated",
+    "initiationDate": "20140725",
+    "distribution": "HI only"
+  },
+  {
+    "id": "F-1354-2023",
+    "productDescription": "San Marco Premium Dough on Parchment: packaged as 8in, 14in",
+    "reason": "Undeclared Allergen - Soy Flour",
+    "company": "Cassanos Inc",
+    "classification": "Class II",
+    "status": "Terminated",
+    "initiationDate": "20230718",
+    "distribution": "Distributed to: CO, FL, IN, IL, KY, MI, OH, PA, WV"
+  }
+]

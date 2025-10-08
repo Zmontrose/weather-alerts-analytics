@@ -1,3 +1,24 @@
+# AlertsAnalytics.com - Robots.txt
+# Generated: 2025-10-08T16:04:34.115Z
+
 User-agent: *
 Allow: /
-Sitemap: https://recallwatch.pages.dev/sitemap-index.xml
+
+# Important pages for crawling
+Allow: /air-quality
+Allow: /hazard/
+Allow: /state/
+Allow: /recalls/
+Allow: /alerts/
+
+# Disallow admin or temp files
+Disallow: /admin/
+Disallow: /*.json
+Disallow: /temp/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://7e06e559.weather-alerts-analytics.pages.dev/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

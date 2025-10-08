@@ -1,0 +1,32 @@
+{
+  "kpis": [
+    "Subscriber growth rate",
+    "Email open rates",
+    "Click-through rates",
+    "Conversion rates",
+    "Unsubscribe rates",
+    "List engagement score"
+  ],
+  "goals": {
+    "month_1": {
+      "subscribers": 250,
+      "open_rate": "25%",
+      "click_rate": "3%"
+    },
+    "month_3": {
+      "subscribers": 1000,
+      "open_rate": "30%",
+      "click_rate": "5%"
+    },
+    "month_6": {
+      "subscribers": 2500,
+      "open_rate": "35%",
+      "click_rate": "7%"
+    }
+  },
+  "revenue_projection": {
+    "month_1": "$25-50 (affiliate commissions)",
+    "month_3": "$100-250 (sponsorships + affiliates)",
+    "month_6": "$300-600 (premium content + sponsors)"
+  }
+}

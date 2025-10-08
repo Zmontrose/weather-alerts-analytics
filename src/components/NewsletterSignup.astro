@@ -93,9 +93,9 @@ const {
         const alerts = formData.get('alerts');
         const recalls = formData.get('recalls');
         
-        // Replace this with your actual newsletter service endpoint
-        // Examples: ConvertKit, Mailchimp, Beehiiv, etc.
-        const NEWSLETTER_ENDPOINT = '/api/newsletter-signup';
+        // ConvertKit API endpoint for form submission
+        const NEWSLETTER_ENDPOINT = 'https://api.convertkit.com/v3/forms/5432109/subscribe';
+        const API_KEY = 'YOUR_CONVERTKIT_API_KEY';
         
         try {
           const button = form.querySelector('.submit-button');
