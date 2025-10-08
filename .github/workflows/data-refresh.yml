@@ -1,0 +1,63 @@
+name: 'Data Refresh & Deploy'
+
+on:
+  schedule:
+    # Run every 4 hours to keep data fresh
+    - cron: '0 */4 * * *'
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Fetch all data sources
+        run: |
+          echo "🔄 Fetching FDA recall data..."
+          npm run fetch:fda
+          echo "🌤️ Fetching weather alerts..."  
+          npm run fetch:weather
+          echo "🌫️ Fetching air quality data..."
+          npm run fetch:air
+          echo "✨ Normalizing data..."
+          npm run normalize
+          
+      - name: Build site
+        run: npm run build
+        
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=weather-alerts-analytics
+          
+      - name: Commit updated data files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          if [[ `git status --porcelain` ]]; then
+            git add data/
+            git commit -m "🔄 Auto-update data sources - $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
+            git push
+            echo "✅ Data files updated and committed"
+          else
+            echo "ℹ️ No data changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

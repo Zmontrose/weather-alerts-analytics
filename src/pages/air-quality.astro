@@ -1,0 +1,263 @@
+---
+import Base from "../layouts/Base.astro";
+
+const airQuality = (await import("../../data/air-quality.json")).default;
+const { cities, summary } = airQuality;
+
+const title = "Air Quality Index - Real-time AQI Data";
+const description = `Current air quality data for ${summary.totalCities} major US cities. Average AQI: ${summary.averageAQI}`;
+const canonical = "https://weather-alerts-analytics.pages.dev/air-quality";
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <div class="container">
+    <h1>🌫️ Air Quality Index</h1>
+    
+    <div class="summary-stats">
+      <div class="stat">
+        <span class="stat-number">{summary.averageAQI}</span>
+        <span class="stat-label">Average AQI</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">{summary.totalCities}</span>
+        <span class="stat-label">Cities Monitored</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">{summary.minAQI}-{summary.maxAQI}</span>
+        <span class="stat-label">AQI Range</span>
+      </div>
+    </div>
+
+    <div class="level-summary">
+      <h2>Air Quality Levels</h2>
+      <div class="level-grid">
+        <div class="level-item good">
+          <span class="level-count">{summary.levelCounts.good}</span>
+          <span class="level-name">Good (0-50)</span>
+        </div>
+        <div class="level-item moderate">
+          <span class="level-count">{summary.levelCounts.moderate}</span>
+          <span class="level-name">Moderate (51-100)</span>
+        </div>
+        <div class="level-item sensitive">
+          <span class="level-count">{summary.levelCounts.unhealthySensitive}</span>
+          <span class="level-name">Unhealthy for Sensitive (101-150)</span>
+        </div>
+        <div class="level-item unhealthy">
+          <span class="level-count">{summary.levelCounts.unhealthy}</span>
+          <span class="level-name">Unhealthy (151-200)</span>
+        </div>
+        <div class="level-item very-unhealthy">
+          <span class="level-count">{summary.levelCounts.veryUnhealthy}</span>
+          <span class="level-name">Very Unhealthy (201-300)</span>
+        </div>
+        <div class="level-item hazardous">
+          <span class="level-count">{summary.levelCounts.hazardous}</span>
+          <span class="level-name">Hazardous (301+)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cities-grid">
+      {cities.map(city => (
+        <div class="city-card" data-level={city.level.toLowerCase().replace(/ /g, '-')}>
+          <div class="city-header">
+            <h3>{city.city}, {city.state}</h3>
+            <div class="aqi-badge" style={`background-color: ${city.color}`}>
+              {city.aqi}
+            </div>
+          </div>
+          <div class="aqi-level">{city.level}</div>
+          
+          <div class="pollutants">
+            {city.pollutants.map(pollutant => (
+              <div class="pollutant">
+                <span class="pollutant-name">{pollutant.parameter}</span>
+                <span class="pollutant-value">{pollutant.concentration} {pollutant.unit}</span>
+              </div>
+            ))}
+          </div>
+          
+          <div class="timestamp">
+            Updated: {new Date(city.timestamp).toLocaleTimeString()}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="data-info">
+      <p><small>Data updated: {new Date(summary.fetchedAt).toLocaleString()}</small></p>
+      <p><small>Source: EPA AirNow API simulation for demonstration purposes</small></p>
+    </div>
+  </div>
+
+  <style>
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .summary-stats {
+      display: flex;
+      gap: 2rem;
+      margin: 2rem 0;
+      justify-content: center;
+    }
+
+    .stat {
+      text-align: center;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .stat-number {
+      display: block;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2563eb;
+    }
+
+    .stat-label {
+      display: block;
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+
+    .level-summary {
+      margin: 3rem 0;
+    }
+
+    .level-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .level-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      border-left: 4px solid;
+    }
+
+    .level-item.good { border-left-color: #10b981; }
+    .level-item.moderate { border-left-color: #f59e0b; }
+    .level-item.sensitive { border-left-color: #f97316; }
+    .level-item.unhealthy { border-left-color: #ef4444; }
+    .level-item.very-unhealthy { border-left-color: #8b5cf6; }
+    .level-item.hazardous { border-left-color: #7f1d1d; }
+
+    .level-count {
+      display: block;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .level-name {
+      display: block;
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+
+    .cities-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .city-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-top: 4px solid #e5e7eb;
+    }
+
+    .city-card[data-level="good"] { border-top-color: #10b981; }
+    .city-card[data-level="moderate"] { border-top-color: #f59e0b; }
+    .city-card[data-level="unhealthy-for-sensitive-groups"] { border-top-color: #f97316; }
+    .city-card[data-level="unhealthy"] { border-top-color: #ef4444; }
+    .city-card[data-level="very-unhealthy"] { border-top-color: #8b5cf6; }
+    .city-card[data-level="hazardous"] { border-top-color: #7f1d1d; }
+
+    .city-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .city-header h3 {
+      margin: 0;
+      font-size: 1.25rem;
+    }
+
+    .aqi-badge {
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .aqi-level {
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+
+    .pollutants {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .pollutant {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem;
+      background: #f9fafb;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .pollutant-name {
+      font-weight: 600;
+    }
+
+    .timestamp {
+      font-size: 0.8rem;
+      color: #6b7280;
+      text-align: center;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .data-info {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    @media (max-width: 768px) {
+      .summary-stats {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .cities-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</Base>

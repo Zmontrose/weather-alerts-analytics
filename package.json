@@ -4,12 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch": "node scripts/fetch_openfda.mjs",
+    "fetch:fda": "node scripts/fetch_openfda.mjs",
+    "fetch:weather": "node scripts/fetch-noaa.mjs", 
+    "fetch:air": "node scripts/fetch-epa.mjs",
     "normalize": "node scripts/normalize.mjs",
+    "fetch": "npm run fetch:fda && npm run fetch:weather && npm run fetch:air",
     "data": "npm run fetch && npm run normalize",
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "npm run data && npm run build && wrangler pages deploy dist --project-name=weather-alerts-analytics"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.9",

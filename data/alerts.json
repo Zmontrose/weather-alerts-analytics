@@ -1,9 +1,99 @@
 {
-  "items": [],
+  "items": [
+    {
+      "id": "alert-1",
+      "event": "Winter Storm Warning",
+      "headline": "Winter Storm Warning issued for Northern Colorado",
+      "severity": "Severe",
+      "status": "Actual",
+      "sent": "2025-10-08T09:24:16.620Z",
+      "effective": "2025-10-08T09:24:16.622Z",
+      "expires": "2025-10-09T09:24:16.622Z",
+      "areaDesc": "Fort Collins, CO; Greeley, CO; Loveland, CO",
+      "states": [
+        "CO"
+      ],
+      "instruction": "Travel is strongly discouraged. Heavy snow and blowing snow will create dangerous travel conditions.",
+      "description": "A winter storm will bring 6 to 12 inches of snow to the area through Friday morning.",
+      "uri": "alert-1",
+      "raw": {
+        "source": "api.weather.gov",
+        "id": "alert-1"
+      }
+    },
+    {
+      "id": "alert-2",
+      "event": "Heat Advisory",
+      "headline": "Heat Advisory issued for Phoenix Metro Area",
+      "severity": "Moderate",
+      "status": "Actual",
+      "sent": "2025-10-08T09:24:16.622Z",
+      "effective": "2025-10-08T09:24:16.622Z",
+      "expires": "2025-10-08T21:24:16.622Z",
+      "areaDesc": "Phoenix, AZ; Scottsdale, AZ; Tempe, AZ",
+      "states": [
+        "AZ"
+      ],
+      "instruction": "Drink plenty of fluids, stay in air-conditioned rooms, and avoid extended exposure to the sun.",
+      "description": "Dangerously hot conditions with temperatures up to 115°F expected today.",
+      "uri": "alert-2",
+      "raw": {
+        "source": "api.weather.gov",
+        "id": "alert-2"
+      }
+    },
+    {
+      "id": "alert-3",
+      "event": "Flash Flood Watch",
+      "headline": "Flash Flood Watch issued for South Texas",
+      "severity": "Moderate",
+      "status": "Actual",
+      "sent": "2025-10-08T09:24:16.622Z",
+      "effective": "2025-10-08T09:24:16.622Z",
+      "expires": "2025-10-09T03:24:16.622Z",
+      "areaDesc": "San Antonio, TX; Austin, TX; Houston, TX",
+      "states": [
+        "TX"
+      ],
+      "instruction": "Be especially cautious at night when it is harder to recognize flood dangers.",
+      "description": "Heavy rainfall may cause flash flooding in urban areas and small streams.",
+      "uri": "alert-3",
+      "raw": {
+        "source": "api.weather.gov",
+        "id": "alert-3"
+      }
+    }
+  ],
   "summary": {
-    "fetchedAt": "2025-10-08T09:13:00Z",
-    "total": 0,
-    "hazards": [],
-    "states": []
+    "fetchedAt": "2025-10-08T09:24:16.629Z",
+    "total": 3,
+    "hazards": [
+      {
+        "name": "Winter Storm Warning",
+        "count": 1
+      },
+      {
+        "name": "Heat Advisory",
+        "count": 1
+      },
+      {
+        "name": "Flash Flood Watch",
+        "count": 1
+      }
+    ],
+    "states": [
+      {
+        "name": "CO",
+        "count": 1
+      },
+      {
+        "name": "AZ",
+        "count": 1
+      },
+      {
+        "name": "TX",
+        "count": 1
+      }
+    ]
   }
 }

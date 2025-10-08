@@ -1,59 +1,466 @@
 ---
-// src/pages/index.astro
 import Base from "../layouts/Base.astro";
 import AdSlot from "../components/AdSlot.astro";
-import alerts from "../../data/alerts.json";
 
-const total = alerts.items.length;
+// Import all data sources
+const recalls = (await import("../../data/recalls.json")).default;
+const alerts = (await import("../../data/alerts.json")).default;
+const airQuality = (await import("../../data/air-quality.json")).default;
+
+const recallsTotal = recalls.length;
+const alertsTotal = alerts.items.length;
+const aqiAverage = airQuality.summary.averageAQI;
+
+// Process recalls data
 const byBrand = new Map();
 const byCategory = new Map();
 const byState = new Map();
 
 for (const r of recalls) {
-  byBrand.set(r.brandSlug, { name: r.brand, slug: r.brandSlug, count: (byBrand.get(r.brandSlug)?.count || 0) + 1 });
-  byCategory.set(r.categorySlug, { name: r.category, slug: r.categorySlug, count: (byCategory.get(r.categorySlug)?.count || 0) + 1 });
-  for (const s of r.stateSlugs) {
-    const display = r.states[r.stateSlugs.indexOf(s)] || s;
-    byState.set(s, { name: display, slug: s, count: (byState.get(s)?.count || 0) + 1 });
+  if (r.brandSlug) {
+    byBrand.set(r.brandSlug, { name: r.brand, slug: r.brandSlug, count: (byBrand.get(r.brandSlug)?.count || 0) + 1 });
+  }
+  if (r.categorySlug) {
+    byCategory.set(r.categorySlug, { name: r.category, slug: r.categorySlug, count: (byCategory.get(r.categorySlug)?.count || 0) + 1 });
+  }
+  if (r.stateSlugs) {
+    for (const s of r.stateSlugs) {
+      const display = r.states?.[r.stateSlugs.indexOf(s)] || s;
+      byState.set(s, { name: display, slug: s, count: (byState.get(s)?.count || 0) + 1 });
+    }
   }
 }
 
-const hazards = alerts.summary.hazards.slice(0,15);
-const states = alerts.summary.states.slice(0,30);
-const latest = alerts.items.slice(0,50);
+const topBrands = Array.from(byBrand.values()).sort((a,b) => b.count - a.count).slice(0,8);
+const topCategories = Array.from(byCategory.values()).sort((a,b) => b.count - a.count).slice(0,6);
+const topStates = Array.from(byState.values()).sort((a,b) => b.count - a.count).slice(0,10);
 
-const title = `Product Recalls Monitor`;
-const description = `Latest consumer product recalls: browse by brand, category, or state.`;
-const canonical = `https://recallwatch.pages.dev/`;
+const hazards = alerts.summary.hazards.slice(0,6);
+const alertStates = alerts.summary.states.slice(0,8);
+const latestAlerts = alerts.items.slice(0,3);
+
+const title = `Public Safety Analytics - Weather, Air Quality & Product Recalls`;
+const description = `Real-time monitoring of weather alerts, air quality data, and product recalls from public data sources.`;
+const canonical = `https://weather-alerts-analytics.pages.dev/`;
 ---
 
 <Base title={title} description={description} canonical={canonical}>
-      <h1>{title}</h1>
-      <AdSlot />
-      <p>{total} recall notices indexed from OpenFDA (recent years).</p>
+  <div class="hero">
+    <h1>🔍 Public Safety Analytics</h1>
+    <p class="hero-subtitle">Real-time monitoring of weather alerts, air quality, and product recalls</p>
+    
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">{recallsTotal}</div>
+        <div class="stat-label">Product Recalls</div>
+        <a href="/" class="stat-link">View All →</a>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{alertsTotal}</div>
+        <div class="stat-label">Weather Alerts</div>
+        <a href="/weather-alerts" class="stat-link">View All →</a>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{aqiAverage}</div>
+        <div class="stat-label">Avg AQI</div>
+        <a href="/air-quality" class="stat-link">View All →</a>
+      </div>
+    </div>
+  </div>
 
-<section>
-        <h2>Hazards</h2>
-        <ul>
-          {hazards.map(h => <li><a href={`/hazard/{encodeURIComponent(h.name)}`}>{h.name}</a> — {h.count}</li>)}
-        </ul>
+  <div class="main-content">
+    <div class="data-sections">
+      
+      <!-- Weather Alerts Section -->
+      <section class="data-section">
+        <div class="section-header">
+          <h2>🌤️ Active Weather Alerts</h2>
+          <a href="/weather-alerts" class="view-all">View All</a>
+        </div>
+        {latestAlerts.length > 0 ? (
+          <div class="alerts-preview">
+            {latestAlerts.map(alert => (
+              <div class="alert-item">
+                <div class="alert-type">{alert.event}</div>
+                <div class="alert-headline">{alert.headline}</div>
+                <div class="alert-area">📍 {alert.areaDesc}</div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="no-data">✅ No active weather alerts</div>
+        )}
       </section>
 
-      <section>
-        <h2>States</h2>
-        <ul>
-          {states.map(s => <li><a href={`/state/{s.name}`}>{s.name}</a> — {s.count}</li>)}
-        </ul>
+      <!-- Air Quality Section -->
+      <section class="data-section">
+        <div class="section-header">
+          <h2>🌫️ Air Quality Monitor</h2>
+          <a href="/air-quality" class="view-all">View All Cities</a>
+        </div>
+        <div class="aqi-preview">
+          <div class="aqi-stat">
+            <span class="aqi-number">{aqiAverage}</span>
+            <span class="aqi-label">Average AQI</span>
+          </div>
+          <div class="aqi-breakdown">
+            <div class="aqi-level good">{airQuality.summary.levelCounts.good} Good</div>
+            <div class="aqi-level moderate">{airQuality.summary.levelCounts.moderate} Moderate</div>
+            <div class="aqi-level unhealthy">{airQuality.summary.levelCounts.unhealthy + airQuality.summary.levelCounts.unhealthySensitive} Unhealthy</div>
+          </div>
+        </div>
       </section>
 
-      <section>
-        <h2>Latest alerts</h2>
-        <ul>
-          {latest.map(a => <li><a href={`/alerts/{encodeURIComponent(a.id)}`}>{a.event}</a> — {a.headline || a.description?.slice(0,80) || ''}</li>)}
-        </ul>
+      <!-- Product Recalls Section -->
+      <section class="data-section">
+        <div class="section-header">
+          <h2>⚠️ Product Recalls</h2>
+          <a href="/" class="view-all">View All</a>
+        </div>
+        <div class="recalls-grid">
+          <div class="recalls-category">
+            <h4>Top Brands</h4>
+            <ul>
+              {topBrands.map(brand => (
+                <li><a href={`/brand/${brand.slug}`}>{brand.name}</a> ({brand.count})</li>
+              ))}
+            </ul>
+          </div>
+          <div class="recalls-category">
+            <h4>Categories</h4>
+            <ul>
+              {topCategories.map(cat => (
+                <li><a href={`/category/${cat.slug}`}>{cat.name}</a> ({cat.count})</li>
+              ))}
+            </ul>
+          </div>
+          <div class="recalls-category">
+            <h4>Top States</h4>
+            <ul>
+              {topStates.map(state => (
+                <li><a href={`/state/${state.slug}`}>{state.name}</a> ({state.count})</li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </section>
 
-      <p style="margin-top:2rem;font-size:0.9em;color:#666">Source: OpenFDA Food Enforcement API. This site provides summaries for convenience; always consult the official notice.</p>
+    </div>
+  </div>
 
-      <p><a href="/success">Revenue Success →</a></p>
+  <footer class="data-sources">
+    <h3>Data Sources</h3>
+    <div class="sources-grid">
+      <div class="source-item">
+        <strong>Weather Alerts:</strong> National Weather Service API
+      </div>
+      <div class="source-item">
+        <strong>Air Quality:</strong> EPA AirNow API (simulated)
+      </div>
+      <div class="source-item">
+        <strong>Product Recalls:</strong> FDA OpenFDA API
+      </div>
+    </div>
+    <p class="disclaimer">This site provides summaries for convenience; always consult official sources for complete information.</p>
+  </footer>
+
+  <style>
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      margin: -2rem -1rem 0 -1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .hero-subtitle {
+      font-size: 1.2rem;
+      margin: 0 0 3rem 0;
+      opacity: 0.9;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .stat-number {
+      font-size: 3rem;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-label {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .stat-link {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .stat-link:hover {
+      color: white;
+      border-bottom-color: white;
+    }
+
+    .main-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .data-sections {
+      display: grid;
+      gap: 4rem;
+    }
+
+    .data-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #f3f4f6;
+    }
+
+    .section-header h2 {
+      margin: 0;
+      color: #111827;
+    }
+
+    .view-all {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      background: #eff6ff;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    .view-all:hover {
+      background: #dbeafe;
+    }
+
+    .alerts-preview {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .alert-item {
+      padding: 1rem;
+      background: #fef2f2;
+      border-radius: 8px;
+      border-left: 4px solid #dc2626;
+    }
+
+    .alert-type {
+      font-weight: bold;
+      color: #dc2626;
+      margin-bottom: 0.5rem;
+    }
+
+    .alert-headline {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #374151;
+    }
+
+    .alert-area {
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    .no-data {
+      text-align: center;
+      padding: 2rem;
+      color: #10b981;
+      font-size: 1.1rem;
+      background: #f0fdf4;
+      border-radius: 8px;
+    }
+
+    .aqi-preview {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .aqi-stat {
+      text-align: center;
+    }
+
+    .aqi-number {
+      display: block;
+      font-size: 3rem;
+      font-weight: bold;
+      color: #2563eb;
+    }
+
+    .aqi-label {
+      color: #6b7280;
+    }
+
+    .aqi-breakdown {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .aqi-level {
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 600;
+      flex: 1;
+    }
+
+    .aqi-level.good {
+      background: #d1fae5;
+      color: #065f46;
+    }
+
+    .aqi-level.moderate {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    .aqi-level.unhealthy {
+      background: #fecaca;
+      color: #7f1d1d;
+    }
+
+    .recalls-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .recalls-category h4 {
+      margin: 0 0 1rem 0;
+      color: #374151;
+      font-size: 1.1rem;
+    }
+
+    .recalls-category ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .recalls-category li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f3f4f6;
+    }
+
+    .recalls-category li:last-child {
+      border-bottom: none;
+    }
+
+    .recalls-category a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .recalls-category a:hover {
+      text-decoration: underline;
+    }
+
+    .data-sources {
+      background: #f9fafb;
+      padding: 3rem 2rem;
+      margin: 0 -2rem -2rem -2rem;
+      text-align: center;
+    }
+
+    .data-sources h3 {
+      margin: 0 0 2rem 0;
+      color: #374151;
+    }
+
+    .sources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .source-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .disclaimer {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .aqi-preview {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .aqi-breakdown {
+        flex-direction: column;
+      }
+
+      .recalls-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+      }
+    }
+  </style>
 </Base>

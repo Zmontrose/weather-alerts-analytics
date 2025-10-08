@@ -1,0 +1,919 @@
+{
+  "summary": {
+    "fetchedAt": "2025-10-08T09:24:19.955Z",
+    "totalCities": 30,
+    "averageAQI": 114,
+    "maxAQI": 197,
+    "minAQI": 17,
+    "levelCounts": {
+      "good": 4,
+      "moderate": 11,
+      "unhealthySensitive": 5,
+      "unhealthy": 10,
+      "veryUnhealthy": 0,
+      "hazardous": 0
+    }
+  },
+  "cities": [
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "aqi": 193,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:16.911Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 19,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 46,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 79,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 50,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "aqi": 189,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:17.014Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 36,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 47,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 105,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 61,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "aqi": 62,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:17.114Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 9,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 18,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 94,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 41,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "aqi": 30,
+      "level": "Good",
+      "color": "green",
+      "timestamp": "2025-10-08T09:24:17.215Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 5,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 80,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 70,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 64,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Phoenix",
+      "state": "AZ",
+      "aqi": 148,
+      "level": "Unhealthy for Sensitive Groups",
+      "color": "orange",
+      "timestamp": "2025-10-08T09:24:17.317Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 47,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 12,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 95,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 13,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "aqi": 79,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:17.418Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 50,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 64,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 90,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 15,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "aqi": 195,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:17.520Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 32,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 78,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 64,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 25,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "aqi": 63,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:17.622Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 12,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 26,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 59,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 57,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "aqi": 197,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:17.724Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 28,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 57,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 24,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 17,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "San Jose",
+      "state": "CA",
+      "aqi": 81,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:17.826Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 11,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 12,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 105,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 55,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "aqi": 184,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:17.928Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 20,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 56,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 92,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 13,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Jacksonville",
+      "state": "FL",
+      "aqi": 179,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:18.030Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 11,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 64,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 81,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 66,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Fort Worth",
+      "state": "TX",
+      "aqi": 187,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:18.131Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 14,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 23,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 97,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 32,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "aqi": 129,
+      "level": "Unhealthy for Sensitive Groups",
+      "color": "orange",
+      "timestamp": "2025-10-08T09:24:18.231Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 44,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 28,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 118,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 69,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Indianapolis",
+      "state": "IN",
+      "aqi": 195,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:18.333Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 8,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 42,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 86,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 68,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "aqi": 106,
+      "level": "Unhealthy for Sensitive Groups",
+      "color": "orange",
+      "timestamp": "2025-10-08T09:24:18.434Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 41,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 61,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 93,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 10,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "aqi": 46,
+      "level": "Good",
+      "color": "green",
+      "timestamp": "2025-10-08T09:24:18.536Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 12,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 12,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 88,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 17,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "aqi": 69,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:18.636Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 36,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 53,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 106,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 10,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Denver",
+      "state": "CO",
+      "aqi": 64,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:18.738Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 44,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 71,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 102,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 45,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "aqi": 104,
+      "level": "Unhealthy for Sensitive Groups",
+      "color": "orange",
+      "timestamp": "2025-10-08T09:24:18.838Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 51,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 57,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 39,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 21,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Washington",
+      "state": "DC",
+      "aqi": 86,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:18.940Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 52,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 66,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 86,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 36,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "aqi": 160,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:19.042Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 40,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 23,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 49,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 62,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "El Paso",
+      "state": "TX",
+      "aqi": 87,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:19.143Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 43,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 32,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 79,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 41,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "aqi": 151,
+      "level": "Unhealthy",
+      "color": "red",
+      "timestamp": "2025-10-08T09:24:19.245Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 5,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 38,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 58,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 12,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Portland",
+      "state": "OR",
+      "aqi": 50,
+      "level": "Good",
+      "color": "green",
+      "timestamp": "2025-10-08T09:24:19.346Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 11,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 34,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 48,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 44,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Memphis",
+      "state": "TN",
+      "aqi": 134,
+      "level": "Unhealthy for Sensitive Groups",
+      "color": "orange",
+      "timestamp": "2025-10-08T09:24:19.448Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 32,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 32,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 71,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 24,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Louisville",
+      "state": "KY",
+      "aqi": 17,
+      "level": "Good",
+      "color": "green",
+      "timestamp": "2025-10-08T09:24:19.549Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 22,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 55,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 56,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 51,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "aqi": 91,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:19.651Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 30,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 18,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 53,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 50,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Milwaukee",
+      "state": "WI",
+      "aqi": 68,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:19.752Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 45,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 74,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 75,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 35,
+          "unit": "ppb"
+        }
+      ]
+    },
+    {
+      "city": "Albuquerque",
+      "state": "NM",
+      "aqi": 82,
+      "level": "Moderate",
+      "color": "yellow",
+      "timestamp": "2025-10-08T09:24:19.853Z",
+      "pollutants": [
+        {
+          "parameter": "PM2.5",
+          "concentration": 53,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "PM10",
+          "concentration": 25,
+          "unit": "µg/m³"
+        },
+        {
+          "parameter": "O3",
+          "concentration": 66,
+          "unit": "ppb"
+        },
+        {
+          "parameter": "NO2",
+          "concentration": 55,
+          "unit": "ppb"
+        }
+      ]
+    }
+  ]
+}

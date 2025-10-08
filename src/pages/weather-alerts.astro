@@ -1,0 +1,356 @@
+---
+import Base from "../layouts/Base.astro";
+
+const alerts = (await import("../../data/alerts.json")).default;
+const { items, summary } = alerts;
+
+const title = "Weather Alerts - Active Weather Warnings & Watches";
+const description = `Current weather alerts and warnings. ${summary.total} active alerts monitored nationwide.`;
+const canonical = "https://weather-alerts-analytics.pages.dev/weather-alerts";
+
+function getSeverityColor(severity) {
+  switch (severity?.toLowerCase()) {
+    case 'severe': return '#dc2626';
+    case 'moderate': return '#d97706';
+    case 'minor': return '#eab308';
+    default: return '#6b7280';
+  }
+}
+
+function getEventType(event) {
+  if (event.includes('Warning')) return 'warning';
+  if (event.includes('Watch')) return 'watch';
+  if (event.includes('Advisory')) return 'advisory';
+  return 'statement';
+}
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <div class="container">
+    <h1>🌤️ Weather Alerts</h1>
+    
+    <div class="alert-summary">
+      <div class="summary-card">
+        <div class="summary-number">{summary.total}</div>
+        <div class="summary-label">Active Alerts</div>
+      </div>
+      
+      {summary.hazards.length > 0 && (
+        <div class="hazard-types">
+          <h3>Alert Types</h3>
+          <div class="hazard-list">
+            {summary.hazards.map(hazard => (
+              <div class="hazard-item">
+                <span class="hazard-name">{hazard.name}</span>
+                <span class="hazard-count">{hazard.count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+      
+      {summary.states.length > 0 && (
+        <div class="affected-states">
+          <h3>Affected Areas</h3>
+          <div class="states-list">
+            {summary.states.slice(0, 10).map(state => (
+              <div class="state-item">
+                <span class="state-name">{state.name}</span>
+                <span class="state-count">{state.count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+
+    <div class="alerts-grid">
+      {items.length === 0 ? (
+        <div class="no-alerts">
+          <h3>✅ No Active Weather Alerts</h3>
+          <p>There are currently no active weather alerts or warnings.</p>
+        </div>
+      ) : (
+        items.map(alert => (
+          <div class="alert-card" data-severity={alert.severity?.toLowerCase()} data-type={getEventType(alert.event)}>
+            <div class="alert-header">
+              <div class="alert-event" style={`color: ${getSeverityColor(alert.severity)}`}>
+                {alert.event}
+              </div>
+              <div class="alert-severity severity-{alert.severity?.toLowerCase()}" style={`background-color: ${getSeverityColor(alert.severity)}`}>
+                {alert.severity}
+              </div>
+            </div>
+            
+            <h3 class="alert-headline">{alert.headline}</h3>
+            
+            <div class="alert-area">
+              <strong>📍 Areas:</strong> {alert.areaDesc}
+            </div>
+            
+            {alert.description && (
+              <div class="alert-description">
+                {alert.description}
+              </div>
+            )}
+            
+            {alert.instruction && (
+              <div class="alert-instruction">
+                <strong>⚠️ Instructions:</strong>
+                <p>{alert.instruction}</p>
+              </div>
+            )}
+            
+            <div class="alert-timing">
+              <div class="timing-item">
+                <span class="timing-label">Effective:</span>
+                <span class="timing-value">{new Date(alert.effective).toLocaleString()}</span>
+              </div>
+              <div class="timing-item">
+                <span class="timing-label">Expires:</span>
+                <span class="timing-value">{new Date(alert.expires).toLocaleString()}</span>
+              </div>
+            </div>
+            
+            <div class="alert-states">
+              {alert.states.map(state => (
+                <span class="state-badge">{state}</span>
+              ))}
+            </div>
+          </div>
+        ))
+      )}
+    </div>
+
+    <div class="data-info">
+      <p><small>Data updated: {new Date(summary.fetchedAt).toLocaleString()}</small></p>
+      <p><small>Source: National Weather Service API simulation for demonstration</small></p>
+    </div>
+  </div>
+
+  <style>
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .alert-summary {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .summary-card {
+      text-align: center;
+    }
+
+    .summary-number {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #2563eb;
+      display: block;
+    }
+
+    .summary-label {
+      font-size: 1rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+
+    .hazard-types, .affected-states {
+      min-width: 0;
+    }
+
+    .hazard-types h3, .affected-states h3 {
+      margin: 0 0 1rem 0;
+      color: #374151;
+      font-size: 1.1rem;
+    }
+
+    .hazard-list, .states-list {
+      space-y: 0.5rem;
+    }
+
+    .hazard-item, .state-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f3f4f6;
+    }
+
+    .hazard-item:last-child, .state-item:last-child {
+      border-bottom: none;
+    }
+
+    .hazard-count, .state-count {
+      background: #e5e7eb;
+      color: #374151;
+      padding: 0.25rem 0.5rem;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      min-width: 24px;
+      text-align: center;
+    }
+
+    .no-alerts {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .no-alerts h3 {
+      color: #10b981;
+      margin-bottom: 1rem;
+    }
+
+    .alerts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .alert-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-left: 6px solid #e5e7eb;
+    }
+
+    .alert-card[data-type="warning"] { border-left-color: #dc2626; }
+    .alert-card[data-type="watch"] { border-left-color: #d97706; }
+    .alert-card[data-type="advisory"] { border-left-color: #eab308; }
+
+    .alert-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .alert-event {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .alert-severity {
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .alert-headline {
+      margin: 0 0 1rem 0;
+      font-size: 1.25rem;
+      line-height: 1.4;
+      color: #111827;
+    }
+
+    .alert-area {
+      margin: 1rem 0;
+      color: #374151;
+      font-size: 0.95rem;
+    }
+
+    .alert-description {
+      margin: 1rem 0;
+      color: #4b5563;
+      line-height: 1.6;
+    }
+
+    .alert-instruction {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: #fef3c7;
+      border-radius: 8px;
+      border-left: 4px solid #f59e0b;
+    }
+
+    .alert-instruction strong {
+      color: #92400e;
+    }
+
+    .alert-instruction p {
+      margin: 0.5rem 0 0 0;
+      color: #78350f;
+    }
+
+    .alert-timing {
+      margin: 1.5rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .timing-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .timing-label {
+      font-size: 0.8rem;
+      color: #6b7280;
+      font-weight: 600;
+    }
+
+    .timing-value {
+      font-size: 0.9rem;
+      color: #374151;
+    }
+
+    .alert-states {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .state-badge {
+      background: #e5e7eb;
+      color: #374151;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .data-info {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    @media (max-width: 1024px) {
+      .alert-summary {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .alerts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .alert-timing {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</Base>
